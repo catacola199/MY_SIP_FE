@@ -27,68 +27,20 @@
       <div class="tp-product-area pt-130 pb-130">
          <div class="container">
             <div class="row" id="produk">
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="img-fluid" src="http://localhost/SIP_MY/upload/brosur/thumbnail/default.png" alt="">
-                        <div class="tp-product-icon">
-                           <a href="#"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="#"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">Jeff Gothelf learn UX</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
             </div>
-
-            <!-- <div class="row">
+         </div>
+         <div class="row">
                <div class="container">
                   <div class="col-xl-12">
                      <div class="basic-pagination mt-30 text-center">
                         <nav>
-                           <ul>
-                              <li>
-                                 <a href="blog.php">
-                                    <i class="far fa-angle-left"></i>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="blog.php">1</a>
-                              </li>
-                              <li>
-                                 <span class="current">2</span>
-                              </li>
-                              <li>
-                                 <a href="blog.php">3</a>
-                              </li>
-                              <li>
-                                 <a href="blog.php">
-                                    <i class="far fa-angle-right"></i>
-                                 </a>
-                              </li>
+                           <ul id="pagination">
                            </ul>
                         </nav>
                      </div>
                   </div>
                </div>
-            </div> -->
-         </div>
-         <div id="page">
-            <nav aria-label="...">
-               <ul class="pagination mt-4 d-flex justify-content-center" id="pagination-container">         
-               </ul>
-            </nav>
-         </div>
+            </div>
       </div>
       <!-- product-area-end -->
 
