@@ -19,26 +19,4 @@ class Barang extends CI_Controller{
 		echo json_encode($data);
 	}
 
-	function simpan_barang(){
-		$kobar=$this->input->post('kobar');
-		$nabar=$this->input->post('nabar');
-		$harga=$this->input->post('harga');
-		$data=$this->m_barang->simpan_barang($kobar,$nabar,$harga);
-		echo json_encode($data);
-	}
-
-	function update_barang(){
-		$kobar=$this->input->post('kobar');
-		$nabar=$this->input->post('nabar');
-		$harga=$this->input->post('harga');
-		$data=$this->m_barang->update_barang($kobar,$nabar,$harga);
-		echo json_encode($data);
-	}
-
-	function hapus_barang(){
-		$kobar=$this->input->post('kode');
-		$data=$this->m_barang->hapus_barang($kobar);
-		echo json_encode($data);
-	}
-
 }

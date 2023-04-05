@@ -26,7 +26,7 @@
       <!-- product-area-start -->
       <div class="tp-product-area pt-130 pb-130">
          <div class="container">
-            <div class="row">
+            <div class="row" id="produk">
                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">
                   <div class="tpproduct text-center mb-30">
                      <div class="tpproduct__img">
@@ -49,162 +49,9 @@
                      </div>
                   </div>
                </div>
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="w-100" src="assets/img/product/product-1.jpg" alt="">
-                        <div class="tp-product-icon">
-                           <a href="#"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="#"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">Pride and Prejudice</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".9s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="w-100" src="assets/img/product/product-3.jpg" alt="">
-                        <div class="tp-product-icon">
-                           <a href="#"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="#"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">Hard Luck learn UX</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="w-100" src="assets/img/product/product-4.jpg" alt="">
-                        <div class="tp-product-icon">
-                           <a href="productd"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="productd"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">The Little Prince</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1.1s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="w-100" src="assets/img/product/product-5.jpg" alt="">
-                        <div class="tp-product-icon">
-                           <a href="productd"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="productd"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">The Selfish Giant UX</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1.2s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="w-100" src="assets/img/product/product-6.jpg" alt="">
-                        <div class="tp-product-icon">
-                           <a href="productd"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="productd"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">Little Women UX</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1.3s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="w-100" src="assets/img/product/product-7.jpg" alt="">
-                        <div class="tp-product-icon">
-                           <a href="productd"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="productd"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">JFar From the Madding Crowd</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1.4s">
-                  <div class="tpproduct text-center mb-30">
-                     <div class="tpproduct__img">
-                        <img class="w-100" src="assets/img/product/product-8.jpg" alt="">
-                        <div class="tp-product-icon">
-                           <a href="productd"><i class="fal fa-shopping-basket"></i></a>
-                           <a href="productd"><i class="fal fa-heart"></i></a>
-                        </div>
-                     </div>
-                     <div class="tpproduct__meta">
-                        <h4 class="tp-product-title"><a href="productd">A Horseman in the Sky</a></h4>
-                        <span>$46.00</span>
-                        <div class="product-rating">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fal fa-star"></i>
-                           <i class="fal fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
             </div>
-            <div class="row">
+
+            <!-- <div class="row">
                <div class="container">
                   <div class="col-xl-12">
                      <div class="basic-pagination mt-30 text-center">
@@ -234,7 +81,13 @@
                      </div>
                   </div>
                </div>
-            </div>
+            </div> -->
+         </div>
+         <div id="page">
+            <nav aria-label="...">
+               <ul class="pagination mt-4 d-flex justify-content-center" id="pagination-container">         
+               </ul>
+            </nav>
          </div>
       </div>
       <!-- product-area-end -->
@@ -344,19 +197,7 @@
    </button>
 
    <!-- JS here -->
-   <script src="assets/js/jquery.js"></script>
-   <script src="assets/js/waypoints.js"></script>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
-   <script src="assets/js/swiper-bundle.js"></script>
-   <script src="assets/js/slick.js"></script>
-   <script src="assets/js/magnific-popup.js"></script>
-   <script src="assets/js/counterup.js"></script>
-   <script src="assets/js/wow.js"></script>
-   <script src="assets/js/meanmenu.js"></script>
-   <script src="assets/js/isotope-pkgd.js"></script>
-   <script src="assets/js/imagesloaded-pkgd.js"></script>
-   <script src="assets/js/ajax-form.js"></script>
-   <script src="assets/js/main.js"></script>
+   <?php $this->load->view('_component/jquery') ?>
 </body>
 
 </html>
