@@ -66,10 +66,10 @@
   --tp-grey-2: #f8f8f8;
   --tp-text-body: #8A90A2;
   --tp-text-p: #8A90A2;
-  --tp-theme-1: #19A7CD ;
+  --tp-theme-1: #205295  ;
   --tp-theme-2: #423EF3;
   --tp-theme-primary: #FE5722;
-  --tp-theme-secondary: #19A7CD;
+  --tp-theme-secondary: #205295 ;
   --tp-border-1: #E8ECF2;
   --tp-border-2: #4E4E59;
 }
@@ -8703,7 +8703,7 @@ input[type=color] {
 /*  13. testimonial css start
 /*----------------------------------------*/
 .tp-testimonial-item {
-  background-color: #19A7CD;
+  background-color: #00ADB4 ;
   padding: 60px 45px;
   border-radius: 20px;
 }
@@ -10076,6 +10076,16 @@ input[type=color] {
   color: var(--tp-theme-1);
 }
 
+.tp-product-details-title {
+  font-size: 18px;
+  color: var(--tp-common-white);
+  font-weight: 500;
+}
+.tp-product-details-title:hover {
+  color: var(--tp-theme-1);
+}
+
+
 .tpproduct__img {
   margin-bottom: 45px;
   position: relative;
@@ -10213,6 +10223,18 @@ input[type=color] {
   font-weight: 500;
   color: var(--tp-common-black);
   padding-bottom: 10px;
+}
+
+.tp-product-background{
+  background-color: #303942;
+}
+
+.tp-product-footer{
+  background-color: #303942;
+}
+
+.tp-productend-background{
+  background-color: var(--tp-common-white);
 }
 
 /*----------------------------------------*/
@@ -10559,6 +10581,7 @@ input[type=color] {
 .tab-para p {
   font-size: 16px;
   line-height: 30px;
+  color: var(--tp-common-white);
 }
 
 .comments-box {
@@ -10681,8 +10704,12 @@ input[type=color] {
   text-transform: capitalize;
 }
 
+.tp-product-slider{
+  background-color: #303942;
+}
+
 .tp-product-slider-title {
-  color: var(--tp-common-black);
+  color: var(--tp-common-white);
   font-size: 30px;
   font-weight: 500;
 }
@@ -14797,15 +14824,16 @@ blockquote cite::before {
   height: 80px;
   width: 100%;
   border: 0;
-  background-color: #1cbeeb     ;
-  box-shadow: 0px, 14px rgba(35, 33, 142, 0.04);
+  background-color: #00969b ;
+  box-shadow: 0px, 14px rgba(255, 255, 255, 0.04);
   border-radius: 5px;
   font-weight: 400;
   font-size: 16px;
-  color: var(--tp-common-black);
+  color: var(--tp-common-text);
   padding-left: 30px;
   padding-right: 240px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-news-button input {
     padding-right: 200px;
@@ -14825,7 +14853,7 @@ blockquote cite::before {
   }
 }
 .tp-news-button input::placeholder {
-  color: var(--tp-common-black);
+  color: var(--tp-common-text);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
