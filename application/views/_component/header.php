@@ -14,6 +14,20 @@
                         <li><a href="<?= base_url()?>">Home</a></li>
                         <li><a href="about">About</a></li>
                         <li><a href="product">Product</a></li>
+                        <li class="has-dropdown has-mega-menu"><a href="#">Services</a>
+                           <ul class="submenu text-start">
+                              <li><a href="product.php">Technician</a></li>
+                              <li><a href="product-details.php">Calibration</a></li>
+                              <li><a href="service-2.php">Conformity Test</a></li>
+                              <li><a href="service-details.php">Service Details</a></li>
+                              <li><a href="testimonial.php">Testimonial</a></li>
+                              <li><a href="price.php">Price</a></li>
+                              <li><a href="faq.php">Faq</a></li>
+                              <li><a href="login.php">Login</a></li>
+                              <li><a href="registration.php">Register</a></li>
+                              <li><a href="404.php">404</a></li>
+                           </ul>
+                        </li>
                         <!-- <li class="has-dropdown has-mega-menu"><a href="#">Pages</a>
                            <ul class="submenu text-start">
                               <li><a href="product.php">Product</a></li>

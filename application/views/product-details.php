@@ -1,163 +1,12 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-
-<head>
-   <meta charset="utf-8">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title> Collax - Product Details</title>
-   <meta name="description" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-   <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
-
-   <!-- CSS here -->
-   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-   <link rel="stylesheet" href="assets/css/animate.css">
-   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-   <link rel="stylesheet" href="assets/css/slick.css">
-   <link rel="stylesheet" href="assets/css/flaticon.css">
-   <link rel="stylesheet" href="assets/css/meanmenu.css">
-   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
-   <link rel="stylesheet" href="assets/css/magnific-popup.css">
-   <link rel="stylesheet" href="assets/css/spacing.css">
-   <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-   <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
-
-     <!-- tp-header-area-start -->
-   <header class="d-none d-lg-block">
-      <div id="header-sticky" class="tp-header-area header-transparent pl-165 pr-165 pt-35">
-         <div class="container-fluid">
-            <div class="row align-items-center">
-               <div class="col-xl-3 col-lg-3">
-                  <div class="tp-logo">
-                     <a href="index.html"><img src="assets/img/logo/logo2.png" alt="" class="img-fluid"></a>
-                  </div>
-               </div>
-               <div class="col-xl-7 col-lg-7">
-                  <div class="tp-main-menu">
-                     <nav id="mobile-menu">
-                        <ul>
-                           <li><a href="#">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="product.html">Product</a></li>
-                           <li class="has-dropdown has-mega-menu"><a href="#">Pages</a>
-                              <ul class="submenu text-start">
-                                 <li><a href="product.html">Product</a></li>
-                                 <li><a href="product-details.html">Product Details</a></li>
-                                 <li><a href="service-2.html">Service 02</a></li>
-                                 <li><a href="service-details.html">Service Details</a></li>
-                                 <li><a href="testimonial.html">Testimonial</a></li>
-                                 <li><a href="price.html">Price</a></li>
-                                 <li><a href="faq.html">Faq</a></li>
-                                 <li><a href="login.html">Login</a></li>
-                                 <li><a href="registration.html">Register</a></li>
-                                 <li><a href="404.html">404</a></li>
-                              </ul>
-                           </li>
-                           <li class="has-dropdown "><a href="blog.html">Blog</a>
-                              <ul class="submenu text-start">
-                                 <li><a href="blog.html">Blog Sidebar</a></li>
-                                 <li><a href="blog-details.html">Blog Details</a></li>
-                                 <li><a href="blog-grid-1.html">Post Style 01</a></li>
-                                 <li><a href="blog-grid-2.html">Post Style 02</a></li>
-                                 <li><a href="blog-grid-3.html">Post Style 03</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                     </nav>
-                  </div>
-               </div>
-               <div class="col-xl-2 col-lg-2">
-                  <div class="tp-menu-bar text-end">
-                     <button><i class="fal fa-bars"></i></button>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </header>
-     <!-- tp-header-area-end -->
-
-   <div id="header-sticky-mobile" class="tp-md-header-area d-md-block d-lg-none pt-30 pb-30">
-      <div class="container-fluid">
-         <div class="row align-items-center">
-            <div class="col-md-6 col-6">
-               <div class="tp-logo">
-                  <a href="index.html"><img src="assets/img/logo/logo-blue.png" alt=""></a>
-               </div>
-            </div>
-            <div class="col-md-6 col-6">
-               <div class="tp-header-right z-index-1 d-flex align-items-center justify-content-end">
-                  <a class="tp-btn-yellow d-none d-md-block" href="#">How it Works</a>
-                  <button class="tp-menu-bar"><i class="fal fa-bars"></i></button>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-
-
-   <div class="tp-offcanvas-area">
-      <div class="tpoffcanvas">
-         <div class="tpoffcanvas__logo">
-            <a href="index.html">
-               <img src="assets/img/logo/logo-white.png" alt="">
-            </a>
-         </div>
-         <div class="tpoffcanvas__close-btn">
-            <a class="close-btn" href="javascript:void(0)"><i class="fal fa-times-hexagon"></i></a>
-         </div>
-         <div class="tpoffcanvas__content d-none d-sm-block">
-            <p>We deploy world-class Creative <br> on demand.</p>
-         </div>
-         <div class="mobile-menu">
-
-         </div>
-         <div class="tpoffcanvas__contact">
-            <span>Contact us</span>
-            <ul>
-               <li><i class="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" target="_blank">Melbone
-                     st, Australia, Ny 12099</a></li>
-               <li><i class="fas fa-star"></i> <a href="tel:8180012345678">+81 800 123 456 78</a></li>
-               <li><i class="fas fa-star"></i> <a href="mailto:Collaxmail@gmail.com">Collaxmail@gmail.com</a></li>
-            </ul>
-         </div>
-         <div class="tpoffcanvas__input d-none d-sm-block">
-            <p>Get UPdate</p>
-            <form class="p-relative" action="#">
-               <input type="text" placeholder="Enter mail">
-               <button type="submit"><i class="fas fa-paper-plane"></i></button>
-            </form>
-         </div>
-         <div class="tpoffcanvas__instagram d-none d-sm-block">
-            <p>Check Instagram POst</p>
-           <div class="tp-insta">
-            <div class="row">
-               <div class="col-3 col-sm-3"><a href="#"><img src="assets/img/offcanvas/insta-1.jpg" alt=""></a></div>
-               <div class="col-3 col-sm-3"><a href="#"><img src="assets/img/offcanvas/insta-2.jpg" alt=""></a></div>
-               <div class="col-3 col-sm-3"><a href="#"><img src="assets/img/offcanvas/insta-4.jpg" alt=""></a></div>
-               <div class="col-3 col-sm-3"><a href="#"><img src="assets/img/offcanvas/insta-4.jpg" alt=""></a></div>
-            </div>
-           </div>
-         </div>
-      </div>
-   </div>
-
-   <div class="body-overlay"></div>
+<?php $this->load->view('_component/head') ?>
+<?php $this->load->view('_component/header') ?>
+<?php $this->load->view('_component/_btn-top-bar') ?>
 
    <main>
 
       <!-- breadcrumb area start -->
       <section class="breadcrumb__area  breadcrumb__pt-310 include-bg p-relative"
-         data-background="assets/img/breadcrum/ab-1.1.jpg">
+         data-background="assets/img/breadcrum/coba.jpg">
          <div class="ac-about-shape-img z-index-1">
             <img src="assets/img/breadcrum/ab-shape-1.1.jpg" alt="">
          </div>
@@ -176,7 +25,7 @@
 
 
       <!--product-details-area-start -->
-      <div class="tp-product-details-area pt-130">
+      <div class="tp-product-details-area tp-product-background pt-130">
          <div class="container">
             <div class="row align-items-center justify-content-center">
                <div class="col-xl-5 col-lg-6 col-12">
@@ -244,46 +93,7 @@
                               <div class="tab-pane fade" id="additional-information" role="tabpanel"
                               aria-labelledby="information-tab">
                                  <div class="product__details-info table-responsive">
-                                    <table class="table table-striped">
-                                       <tbody>
-                                          <tr>
-                                             <td class="add-info">Weight</td>
-                                             <td class="add-info-list"> 2 lbs</td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Dimensions</td>
-                                             <td class="add-info-list"> 12 × 16 × 19 in</td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Product</td>
-                                             <td class="add-info-list"> Purchase this product on rag-bone.com</td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Color</td>
-                                             <td class="add-info-list"> Gray, Black</td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Size</td>
-                                             <td class="add-info-list"> S, M, L, XL</td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Model</td>
-                                             <td class="add-info-list"> Model </td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Shipping</td>
-                                             <td class="add-info-list"> Standard shipping: $5,95L</td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Care Info</td>
-                                             <td class="add-info-list"> Machine Wash up to 40ºC/86ºF Gentle Cycle</td>
-                                          </tr>
-                                          <tr>
-                                             <td class="add-info">Brand</td>
-                                             <td  class="add-info-list">  Kazen</td>
-                                          </tr>
-                                       </tbody>
-                                   </table>
+                                    <img src="assets/img/product/b.png" alt="">
                                  </div>
                               </div>
                               <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
@@ -510,7 +320,7 @@
 
 
       <!-- product-slider-area-end -->
-      <div class="tp-product-slider pb-100">
+      <div class="tp-product-slider tp-productend-background pb-100">
          <div class="container">
             <div class="row justify-content-center">
                <div class="col-xl-10">
@@ -534,7 +344,7 @@
                                     </div>
                                  </div>
                                  <div class="tpproduct__meta">
-                                    <h4 class="tp-product-title"><a href="#">Jeff Gothelf learn UX</a></h4>
+                                    <h4 class="tp-product-details-title"><a href="#">Jeff Gothelf learn UX</a></h4>
                                     <span>$46.00</span>
                                     <div class="product-rating">
                                        <i class="fas fa-star"></i>
@@ -556,7 +366,7 @@
                                     </div>
                                  </div>
                                  <div class="tpproduct__meta">
-                                    <h4 class="tp-product-title"><a href="#">Jeff Gothelf learn UX</a></h4>
+                                    <h4 class="tp-product-details-title"><a href="#">Jeff Gothelf learn UX</a></h4>
                                     <span>$46.00</span>
                                     <div class="product-rating">
                                        <i class="fas fa-star"></i>
@@ -578,7 +388,7 @@
                                     </div>
                                  </div>
                                  <div class="tpproduct__meta">
-                                    <h4 class="tp-product-title"><a href="#">Jeff Gothelf learn UX</a></h4>
+                                    <h4 class="tp-product-details-title"><a href="#">Jeff Gothelf learn UX</a></h4>
                                     <span>$46.00</span>
                                     <div class="product-rating">
                                        <i class="fas fa-star"></i>
@@ -600,7 +410,7 @@
                                     </div>
                                  </div>
                                  <div class="tpproduct__meta">
-                                    <h4 class="tp-product-title"><a href="#">Jeff Gothelf learn UX</a></h4>
+                                    <h4 class="tp-product-details-title"><a href="#">Jeff Gothelf learn UX</a></h4>
                                     <span>$46.00</span>
                                     <div class="product-rating">
                                        <i class="fas fa-star"></i>
@@ -622,7 +432,7 @@
                                     </div>
                                  </div>
                                  <div class="tpproduct__meta">
-                                    <h4 class="tp-product-title"><a href="#">Jeff Gothelf learn UX</a></h4>
+                                    <h4 class="tp-product-details-title"><a href="#">Jeff Gothelf learn UX</a></h4>
                                     <span>$46.00</span>
                                     <div class="product-rating">
                                        <i class="fas fa-star"></i>
@@ -658,7 +468,7 @@
                      <div class="tp-footer-widget__logo mb-30">
                         <a href="index.html"><img src="assets/img/logo/logo-white.png" alt=""></a>
                      </div>
-                     <div class="tp-footer-widget__text mb-30">
+                     <div class="tp-footer-widget__text mb-30 tp-product-text">
                         <p>A new way to make the payments easy,
                            reliable and 100% secure. claritatem itamconse quat. Exerci tationulla</p>
                      </div>
