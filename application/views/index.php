@@ -22,8 +22,8 @@
                         <h2 class="tp-hero-title wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">We Scare Because We Care</h2>
                         <p class="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">kami sangat peduli terhadap kepuasan pelanggan kami</p>
                         <div class="tp-hero-button mb-140 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
-                           <a class="tp-btn mr-30" href="portfolio-details.php">Visit Case Studies</a>
-                           <a class="tp-btn-grey" href="about-me.php">About SIP <i class="far fa-arrow-right"></i></a>
+                           <!-- <a class="tp-btn mr-30" href="portfolio-details.php">Visit Case Studies</a> -->
+                           <a class="tp-btn-grey" href="#about">About SIP <i class="far fa-arrow-right"></i></a>
                         </div>
                         <div class="tp-hero-social pb-30 wow tpfadeIn" data-wow-duration=".7s" data-wow-delay="1.2s">
                            <div class="tp-hero-social bp-hero-social">
@@ -50,7 +50,7 @@
    <!-- tp-hero-area-end -->
 
    <!--creative-area-start -->
-   <div class="p-relative">
+   <div class="p-relative"  id="about">
       <div class="shape-two z-index-1">
          <img src="assets/img/hero/shape-2.png" alt="">
       </div>
@@ -63,14 +63,16 @@
          <div class="creative-shape-img-2">
             <img src="assets/img/creative/creative-circle-img.png" alt="">
          </div>
-         <div class="container creative-z-index ">
+         <div class="container creative-z-index">
             <div class="row">
                <div class="col-lg-12">
                   <div class="tp-creative-box text-center">
                      <div class="tp-creative-content mb-110">
                         <h4 class="tp-creative-title">PT. Sri Intan Perkasa berdiri sejak tahun 1994, di Jakarta, Indonesia.
                            Sebagai salah satu penyedia alat kesehatan yang terpercaya dalam memberikan pelayanan, kenyamanan, kemudahan
-                           dan kualitas produk terbaik kepada seluruh pelanggan.</h4>
+                           dan kualitas produk terbaik kepada seluruh pelanggan.
+                        </h4>
+                        <a class="tp-btn-grey mt-1" href="about">Show More<i class="far fa-arrow-right"></i></a>
                      </div>
                      <div class="tp-play-button mb-120">
                         <a class="popup-video" href="https://www.youtube.com/watch?v=PO_fBTkoznc"><i class="fal fa-play"></i></a>
@@ -88,8 +90,8 @@
                               <i class="flaticon-satisfaction"></i>
                            </div>
                            <div class="counter-text">
-                              <span>875</span>
-                              <p class="m-0">Customer</p>
+                              <span class="text-white">875</span>
+                              <p class="m-0 text-white">Customer</p>
                            </div>
                         </div>
                      </div>
@@ -101,8 +103,8 @@
                               <i class="flaticon-clipboard"></i>
                            </div>
                            <div class="counter-text">
-                              <span>8049</span>
-                              <p class="m-0">Produk Terjual</p>
+                              <span class="text-white">8049</span>
+                              <p class="m-0 text-white">Produk Terjual</p>
                            </div>
                         </div>
                      </div>
@@ -114,8 +116,8 @@
                               <i class="ri-earth-line"></i>
                            </div>
                            <div class="counter-text">
-                              <span>Wilayah</span>
-                              <p class="m-0">Seluruh Indonesia </p>
+                              <span  class="text-white">Wilayah</span>
+                              <p class="m-0 text-white">Seluruh Indonesia </p>
                            </div>
                         </div>
                      </div>

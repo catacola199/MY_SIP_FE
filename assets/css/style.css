@@ -5148,7 +5148,7 @@ input[type=color] {
   transform: translate3d(0, -10px, 0);
 }
 .tp-creative-item:hover .tp-creative-icon i {
-  color: rgba(41, 41, 48, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {

@@ -15,7 +15,7 @@
                <div class="col-xxl-12">
                   <div class="breadcrumb__content p-relative z-index-1">
                      <h3 class="breadcrumb__title">About SIP</h3>
-                      <a href="contact.html" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
+                      <a href="#more" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
                   </div>
                </div>
             </div>
@@ -25,7 +25,7 @@
 
 
       <!-- tp-about-area-start -->
-      <div class="ac-about-content-area pt-130">
+      <div class="ac-about-content-area pt-130" id="more">
          <div class="container">
             <div class="ac-border-bottom ac-bottom-space">
                <div class="row">
