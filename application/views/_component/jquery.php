@@ -86,15 +86,9 @@
                         produkHtml += '</div>';
                     produkHtml += '</div>';
                     produkHtml += '<div class="tpproduct__meta">';
-                        produkHtml += '<h4 class="tp-product-title"><a href="productd">' + produk.nama_produk + '</a></h4>';
-                        produkHtml += '<span>$46.00</span>';
-                        produkHtml += '<div class="product-rating">';
-                            produkHtml += '<i class="fas fa-star"></i>';
-                            produkHtml += '<i class="fas fa-star"></i>';
-                            produkHtml += '<i class="fas fa-star"></i>';
-                            produkHtml += '<i class="fas fa-star"></i>';
-                            produkHtml += '<i class="fal fa-star"></i>';
-                        produkHtml += '</div>';
+                        produkHtml += '<h4 class="tp-product-title">' + produk.nama_produk + '</h4>';
+                        produkHtml += '<p class="text-truncate card-text">' + produk.informasi_produk + '</p>';
+                        produkHtml += '<a class="tp-btn-detail" href="productd">Lihat Detail <i class="far fa-arrow-right"></i></a>';
                     produkHtml += '</div>';
                 produkHtml += '</div>';
                 produkHtml += '</div>';

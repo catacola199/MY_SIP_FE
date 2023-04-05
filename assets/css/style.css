@@ -824,10 +824,31 @@ input[type=color] {
   border-radius: 10px;
   text-transform: capitalize;
 }
+.tp-btn-detail{
+  display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--tp-theme-1);
+    background: #EBEBF9;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0px 25px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-btn-grey {
     height: 60px;
     line-height: 60px;
+  }
+  .tp-btn-grey {
+    height: 40px;
+    line-height: 40px;
   }
 }
 .tp-btn-grey i {
@@ -869,10 +890,54 @@ input[type=color] {
   left: 0;
   right: auto;
 }
+.tp-btn-detail i {
+  padding-left: 17px;
+}
+.tp-btn-detail:hover {
+  color: var(--tp-common-white);
+}
+.tp-btn-detail:hover i {
+  animation: tfLeftToRight 0.5s forwards;
+}
+.tp-btn-detail::before, .tp-btn-detail::after {
+  content: "";
+  background: var(--tp-theme-1);
+  height: 50%;
+  width: 0;
+  position: absolute;
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  z-index: -1;
+}
+.tp-btn-detail::before {
+  top: 0;
+  left: 0;
+  right: auto;
+}
+.tp-btn-detail::after {
+  bottom: 0;
+  right: 0;
+  left: auto;
+}
+.tp-btn-detail:hover::before {
+  width: 100%;
+  right: 0;
+  left: auto;
+}
+.tp-btn-detail:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
 @media (max-width: 767px) {
   .tp-btn-grey {
     height: 56px;
     line-height: 56px;
+  }
+
+  .tp-btn-grey {
+    height: 46px;
+    line-height: 46px;
   }
 }
 
