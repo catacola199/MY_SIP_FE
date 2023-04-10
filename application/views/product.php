@@ -21,11 +21,11 @@ data-background="assets/img/breadcrum/12.jpg">
 <!-- product-area-start -->
 <div class="tp-product-area pt-130 pb-130" id="more">
    <div class="container">
-      <div class="row" id="produk">
-         <div class="card text-center">
+      <div class="row d-flex justify-content-center" id="produk">
+         <div class="card text-center border border-0" style="width: 35rem">
             <div class="card-body">
-               <img class="img-fluid" src="<?php base_url('assets/img/product_notfound.png')?>" alt="...">
-               <h5 class="card-title">Product Not Found</h5>
+               <img class="img-fluid" src="assets/img/product_notfound.png" alt="">
+               <h5 class="card-title">Empty Product</h5>
             </div>
          </div>
       </div>
