@@ -22,6 +22,12 @@ data-background="assets/img/breadcrum/12.jpg">
 <div class="tp-product-area pt-130 pb-130" id="more">
    <div class="container">
       <div class="row" id="produk">
+         <div class="card text-center">
+            <div class="card-body">
+               <img class="img-fluid" src="<?php base_url('assets/img/product_notfound.png')?>" alt="...">
+               <h5 class="card-title">Product Not Found</h5>
+            </div>
+         </div>
       </div>
    </div>
    <div class="row">
