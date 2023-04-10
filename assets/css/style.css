@@ -839,7 +839,7 @@ input[type=color] {
     overflow: hidden;
     border-radius: 5px;
     text-transform: capitalize;
-    margin-top: 1rem;
+    margin-top: 3px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-btn-grey {
@@ -10154,7 +10154,7 @@ input[type=color] {
 
 
 .tpproduct__img {
-  margin-bottom: 45px;
+  margin-bottom: 20px;
   position: relative;
 }
 .tpproduct__img::after {
