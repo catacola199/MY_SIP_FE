@@ -170,7 +170,7 @@
       <!-- mission-area-end -->
 
       <!--chose-area-start -->
-      <div class="ac-chose-area pt-50 mb-130">
+      <div class="ac-chose-area pt-50 mb-100">
          <div class="container ac-chose-bg">
             <div class="row">
                <div class="col-xl-3 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".5s">
@@ -295,7 +295,7 @@
       <!-- tp-feature-area-end -->
 
       <!-- news-area-start -->
-      <div class="tp-news-letter-area tp-news-letter-bg pt-10 pb-60" data-background="assets/img/news/news-bg.jpg">
+      <div class="tp-news-letter-area tp-news-letter-bg pt-30 pb-60" data-background="assets/img/news/news-bg.jpg">
          <div class="container">
             <div class="row align-items-center">
                <div class="col-xl-7 col-lg-7 col-md-12 ">
