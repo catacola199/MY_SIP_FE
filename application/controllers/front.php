@@ -17,6 +17,12 @@ class Front extends CI_Controller{
 		$this->load->view('contact');
 	}
 	function produk_details(){
+		// $data["detail"] = $this->barang();
 		$this->load->view('product-details');
 	}
+
+	// function barang(){
+	// 	$id = $this->input->get('id');
+	// 	return $this->db->get_where('produk_detail', ['id_detailproduk' => $id])->result();
+	// }
 }

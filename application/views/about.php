@@ -127,6 +127,48 @@
             <div class="col-xl-6 col-lg-5 col-md-12 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
                <div class="tp-mission-img">
                   <img src="assets/img/mission/collage.png" alt="">
+<!-- breadcrumb area start -->
+<section class="breadcrumb__area  breadcrumb__pt-310 include-bg p-relative"
+   data-background="assets/img/breadcrum/test.jpg">
+   <div class="ac-about-shape-img">
+      <img src="assets/img/breadcrum/icon.png" alt="">
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-xxl-12">
+            <div class="breadcrumb__content p-relative z-index-1">
+               <h3 class="breadcrumb__title">About SIP</h3>
+                  <a href="#more" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- breadcrumb area end -->
+
+
+<!-- tp-about-area-start -->
+<div class="ac-about-content-area pt-130" id="more">
+   <div class="container">
+      <div class="ac-border-bottom ac-bottom-space">
+         <div class="row">
+            <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".3s" data-wow-delay=".5s">
+               <div class="ac-about-left">
+                  <h3 class="ac-ab-title"><a href="#">Building software for world changers</a></h3>
+                  <div class="ac-play-button">
+                     <a class="popup-video" href="https://www.youtube.com/watch?v=PVcUFCT0J0Q"><i class="far fa-play"></i></a>
+                     <span>See Demo Video</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl- col-lg-6 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
+               <div class="ac-about-right">
+                  <p class="pb-25">Collax builds digital products that let people do things differently. Share
+                     your challenge
+                     with our team, and we’ll work with you to deliver a revolutionary digital product. Our
+                     clients have changed the way people do banking, listen to music.</p>
+                  <p>learn languages, and rent bikes. Their products have been featured in TechCrunch, Business
+                     Insider, and Product Hunt.</p>
                </div>
             </div>
          </div>
@@ -187,8 +229,27 @@
                         <h4>Service</h4>
                         <p>High service to out customer</p>
                      </div>
+      <div class="row ac-testimonial-space">
+         <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".3s" data-wow-delay=".5s">
+            <div class="ac-testimonial-info">
+               <div class="actestimonial">
+                  <div class="actestimonial__icon">
+                     <img src="assets/img/about/testi-7.png" alt="">
+                  </div>
+                  <div class="actestimonial__position">
+                     <h4 class="ac-client-name"><a href="#">Wiktor Schmidt</a></h4>
+                     <span>Executive Chairman (orix)</span>
+                  </div>
+                  <div class="actestimonial__paragraph">
+                     <p> <span><i class="fas fa-quote-right"></i></span> Wow. What a great experience with this
+                        copywriter. collax is a very talented digital agnecy. yesterday.</p>
                   </div>
                </div>
+            </div>
+         </div>
+         <div class="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
+            <div class="ac-testimonial-right">
+               <img src="assets/img/breadcrum/ab-1.2.jpg" alt="">
             </div>
          </div>
       </div>
@@ -250,10 +311,57 @@
                         <h3 class="ac-feature-sm-title ac-cirle-color-4"><a href="about-me.html">Development</a></h3>
                         <p>At collax we specialize designing building, shipping...</p>
                      </div>
+
+</div>
+<!-- tp-about-area-end -->
+
+<!--chose-area-start -->
+<div class="ac-chose-area mb-130">
+   <div class="container ac-chose-bg">
+      <div class="row">
+         <div class="col-xl-3 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".5s">
+            <div class="tp-chose-item mb-30">
+               <div class="tpchosebox">
+                  <div class="tpchosebox__icon mb-30">
+                     <a href="#"><i class="flaticon-group"></i></a>
+                  </div>
+                  <div class="tpchosebox__content">
+                     <h4><a href="service-details.html">Professional <br> Team</a></h4>
+                     <p>24+ Team Member</p>
                   </div>
                </div>
             </div>
          </div>
+         <div class="col-xl-3 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".7s">
+            <div class="tp-chose-item mb-30">
+               <div class="tpchosebox tpchosebox-three">
+                  <div class="tpchosebox__icon fea-color-5 mb-30">
+                     <a href="#"><i class="fas fa-star"></i></a>
+                  </div>
+                  <div class="tpchosebox__content">
+                     <h4><a href="service-details.html">Competitive <br>
+                        Rate</a></h4>
+                     <p>100% Client Satisfied</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".9s">
+            <div class="tp-chose-item mb-30">
+               <div class="tpchosebox tpchosebox-two">
+                  <div class="tpchosebox__icon fea-color-4 mb-30">
+                     <a href="#"><i class="flaticon-web"></i></a>
+                  </div>
+                  <div class="tpchosebox__content">
+                     <h4><a href="service-details.html">Cretified <br>
+                        Globally</a></h4>
+                     <p>65.04 k Reach</p>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+
       </div>
    </div>  -->
 
@@ -274,6 +382,17 @@
                   <div class="tp-news-button wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
                      <a class="tp-btn-lg-yellow mr-20" href="contact.html">Become a Partner</a>
                      <a class="tp-btn-sky" href="about-me.html">Press Office</a>
+
+         <div class="col-xl-3 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".9s">
+            <div class="tp-chose-item mb-30">
+               <div class="tpchosebox">
+                  <div class="tpchosebox__icon mb-30">
+                     <a href="#"><i class="fas fa-star"></i></a>
+                  </div>
+                  <div class="tpchosebox__content">
+                     <h4><a href="service-details.html">Competitive <br> Rate</a></h4>
+                     <p>100% Client Satisfied</p>
+
                   </div>
                </div>
             </div>
@@ -286,10 +405,124 @@
       </div>
    </div>
 
+
    <!-- news-area-end -->
 
 
 </main>
 <!-- footer-area-start -->
 
-<?php $this->load->view('_component/footer') ?>
+<footer>
+   <div class="tp-footer-area black-bg pt-130 pb-30">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+               <div class="tp-footer-widget">
+                  <div class="tp-footer-widget__logo mb-30">
+                     <a href="index.html"><img src="assets/img/logo/logo_kecil.png" alt=""></a>
+                  </div>
+                  <div class="tp-footer-widget__text mb-30">
+                     <p>A new way to make the payments easy,
+                        reliable and 100% secure. claritatem itamconse quat. Exerci tationulla</p>
+                  </div>
+                  <div class="tp-footer-widget__social-link">
+                     <a href="#"><i class="fab fa-youtube"></i></a>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fab fa-skype"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-2 col-md-6 d-flex justify-content-lg-center">
+               <div class="tp-footer-widget">
+                  <div class="tp-footer-widget__title pb-15">
+                     <h3 class="footer-title">Usefull Links</h3>
+                  </div>
+                  <div class="tp-footer-widget__list">
+                     <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">How it Works</a></li>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Terms & Services</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-2 col-md-6">
+               <div class="tp-footer-widget pl-20">
+                  <div class="tp-footer-widget__title pb-15">
+                     <h3 class="footer-title">Community</h3>
+                  </div>
+                  <div class="tp-footer-widget__list">
+                     <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Suggestions</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+               <div class="tp-footer-widget">
+                  <div class="tp-footer-widget__title pb-15">
+                     <h3 class="footer-title">Subscribe Newslatter</h3>
+                  </div>
+                  <div class="tp-footer-widget__text mb-55">
+                     <p>Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo</p>
+                  </div>
+                  <div class="tp-footer-widget__input">
+                     <form action="#">
+                        <input type="text" placeholder="Enter Mail">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="tp-copyright-area">
+         <div class="container">
+            <div class="copyright-border pt-40">
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-12">
+                     <div class="tp-copyright-left text-lg-start text-start text-md-center">
+                        <p> © Copyright ©2022 Sri Intan Perkasa. All Rights Reserved Copyright</p>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-12">
+                     <div class="tp-copyright-right text-start text-md-center text-lg-end">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+
+<!-- footer-area-end -->
+<button class="scroll-top scroll-to-target" data-target="html">
+   <i class="far fa-angle-double-up"></i>
+</button>
+
+<!-- JS here -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/waypoints.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/swiper-bundle.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/counterup.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/meanmenu.js"></script>
+<script src="assets/js/isotope-pkgd.js"></script>
+<script src="assets/js/imagesloaded-pkgd.js"></script>
+<script src="assets/js/ajax-form.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
