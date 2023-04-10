@@ -1,5 +1,5 @@
 <footer>
-    <div class="tp-footer-area black-bg pt-130 pb-30">
+    <div class="tp-footer-area black-bg pt-50">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6">
@@ -72,11 +72,11 @@
 
         <div class="tp-copyright-area">
             <div class="container">
-                <div class="copyright-border pt-40">
+                <div class="copyright-border pt-30">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-12">
                             <div class="tp-copyright-left text-lg-start text-start text-md-center">
-                                <p> © Copyright ©2022 Sri Intan Perkasa. All Rights Reserved Copyright</p>
+                                <p> © Copyright ©2023 Sri Intan Perkasa. All Rights Reserved Copyright</p>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-12">

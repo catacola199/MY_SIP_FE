@@ -8303,6 +8303,8 @@ input[type=color] {
 
 .ac-about-right {
   padding-left: 65px;
+  text-align: justify;
+  color: var(--tp-common-black);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .ac-about-right {
@@ -15426,7 +15428,7 @@ blockquote cite::before {
 }
 
 .tp-footer-widget {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   position: relative;
   z-index: 2;
 }
