@@ -86,7 +86,7 @@
                         produkHtml += '<div class="tpproduct__meta">';
                             produkHtml += '<h4 class="tp-product-title">' + produk.nama_produk + '</h4>';
                             produkHtml += '<p class="text-truncate card-text">' + produk.informasi_produk + '</p>';
-                            produkHtml += '<button class="tp-btn-detail" onclick="detail_produk('+ produk.id_detailproduk +')">Lihat Detail <i class="far fa-arrow-right"></i></button>';
+                            produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"class="tp-btn-detail">Lihat Detail <i class="far fa-arrow-right"></i></a>';
                         produkHtml += '</div>';
                     produkHtml += '</div>';
                     produkHtml += '</div>';

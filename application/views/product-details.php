@@ -22,8 +22,6 @@
          </div>
       </section>
       <!-- breadcrumb area end -->
-
-
       <!--product-details-area-start -->
       <div class="tp-product-details-area tp-product-background pt-130">
          <div class="container">
@@ -584,18 +582,19 @@
                dataType: "JSON",
                success: function(data)
                {
-                  $.each(data,function(id_detailproduk, nama_produk, informasi_produk){
-            			$('[name="info_barang"]').val(data.informasi_produk);
-            			$('[name="nama_barang"]').val(data.nama_produk);
-            			// $('[name="harga_edit"]').val(data.barang_harga);
-                     alert(data.id_detailproduk);
+                  console.log(data.nama_produk);
 
-            		});
+                  // $.each(data,function(id_detailproduk, nama_produk, informasi_produk){
+            		// 	$('[name="info_barang"]').val(data.informasi_produk);
+            		// 	$('[name="nama_barang"]').val(data.nama_produk);
+            		// 	// $('[name="harga_edit"]').val(data.barang_harga);
+                     
+            		// });
                   // alert(data.id_detailproduk);
                },
                error: function (jqXHR, textStatus, errorThrown)
                {
-                  alert('Error get data from ajax');
+                  console.log('Error get data from ajax');
                }
          });
       });
