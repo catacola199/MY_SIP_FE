@@ -37,3 +37,8 @@
       </div>
    </div>
    <!-- pre loader area end -->
+   <?php $this->load->view('_component/header') ?>
+   <?php $this->load->view('_component/_btn-top-bar') ?>
+
+   <main>
+

@@ -13,10 +13,19 @@ class Barang extends CI_Controller{
 		echo json_encode($data);
 	}
 
-	function get_barang(){
-		$kobar=$this->input->get('id');
-		$data=$this->m_barang->get_barang_by_kode($kobar);
+	function get_barang($id){
+		// $id=$this->input->get('id');
+		$data=$this->m_barang->get_by_id($id);
 		echo json_encode($data);
 	}
 
+	function detail_produk(){
+		$id = $this->input->get('id');
+		$data=$this->m_barang->barang($id);
+		echo json_encode($data);
+	}
+// function barang(){
+	// 	$id = $this->input->get('id');
+	// 	return $this->db->get_where('produk_detail', ['id_detailproduk' => $id])->result();
+	// }
 }

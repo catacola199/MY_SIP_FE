@@ -36,9 +36,8 @@
                <div class="col-xl-5 col-lg-6 col-12">
                   <div class="productdetails">
                      <div class="productdetails__content">
-                        <h3 class="pd-title">Ux mind seter Book</h3>
-                        <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut
-                           labore et dolore.</p>
+                        <h3 class="text-title" name="nama_barang"></h3>
+                        <p name="info_barang"></p>
                      </div>
                      <div class="productdetails__ratting">
                         <i class="fas fa-star"></i>
@@ -576,6 +575,31 @@
    <script src="assets/js/imagesloaded-pkgd.js"></script>
    <script src="assets/js/ajax-form.js"></script>
    <script src="assets/js/main.js"></script>
+   
+   <script>
+      $(document).ready(function(){
+         $.ajax({
+               url : "<?php echo base_url()?>barang/detail_produk",
+               type: "GET",
+               dataType: "JSON",
+               success: function(data)
+               {
+                  $.each(data,function(id_detailproduk, nama_produk, informasi_produk){
+            			$('[name="info_barang"]').val(data.informasi_produk);
+            			$('[name="nama_barang"]').val(data.nama_produk);
+            			// $('[name="harga_edit"]').val(data.barang_harga);
+                     alert(data.id_detailproduk);
+
+            		});
+                  // alert(data.id_detailproduk);
+               },
+               error: function (jqXHR, textStatus, errorThrown)
+               {
+                  alert('Error get data from ajax');
+               }
+         });
+      });
+   </script>
 </body>
 
 </html>
