@@ -29,14 +29,36 @@
 
 </head>
 
-<body>
+<body class="disable-scrolling ">
     
    <!-- pre loader area start -->
-   <div id="preloader">
-      <div class="preloader">
-         <span></span>
-         <span></span>
-      </div>
+   <div class="preloader" id="preloader">
+      <div class="boxes">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
    </div>
    <!-- pre loader area end -->
    <?php $this->load->view('_component/header') ?>
