@@ -31,4 +31,13 @@ class M_barang extends CI_Model{
 	function barang($id){
 		return $this->db->get_where('produk_detail', ['id_detailproduk' => $id])->row();
 	}
+
+	function barang_random(){
+		$this->db->select('*');
+        $this->db->from('produk_detail');
+		$this->db->order_by('rand()');
+		$this->db->limit(5);
+        $query = $this->db->get();
+        return $query->result();
+	}
 }

@@ -19,9 +19,8 @@ class Barang extends CI_Controller{
 		echo json_encode($data);
 	}
 
-	function detail_produk(){
-		$id = $this->input->get('id');
-		$data=$this->m_barang->barang($id);
+	function produk_terkait(){
+		$data=$this->m_barang->barang_random();
 		echo json_encode($data);
 	}
 // function barang(){

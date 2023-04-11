@@ -1,3 +1,5 @@
+</main>
+
 <footer>
     <div class="tp-footer-area black-bg pt-50">
         <div class="container">

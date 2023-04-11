@@ -640,39 +640,6 @@
 	  });
 
 	////////////////////////////////////////////////////
-	// 23. Swiper Js
-	var projectswiper = new Swiper('.product-slider-active', {
-		// Optional parameters
-		loop: true,
-		slidesPerView: 3,
-		spaceBetween: 30,
-		// Navigation arrows
-		navigation: {
-		  nextEl: '.test-n',
-		  prevEl: '.test-p',
-		},
-
-		breakpoints: {
-			'1200': {
-				slidesPerView: 3,
-			},
-			'992': {
-				slidesPerView: 3,
-			},
-			'768': {
-				slidesPerView: 2,
-			},
-			'576': {
-				slidesPerView: 1,
-			},
-			'0': {
-				slidesPerView: 1,
-			},
-		},
-
-	  });
-
-	////////////////////////////////////////////////////
 	// 24. Swiper Js
 	var projectswiper = new Swiper('.project-slider-active', {
 		// Optional parameters

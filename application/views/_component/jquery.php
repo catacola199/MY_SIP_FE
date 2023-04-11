@@ -13,7 +13,6 @@
 <script src="<?= base_url("assets/js/main.js")?>"></script>
 <script src="<?= base_url("assets/tinymce/tinymce.min.js")?>"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <script>
     tinymce.init({selector:'textarea'});
 
@@ -80,11 +79,11 @@
                         produkHtml += '<div class="tpproduct__img">';
                             produkHtml += '<img class="img-fluid" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/8/25/e2122064-7fef-4c95-a153-8049c48a52ab.jpg" alt="">';
                             produkHtml += '<div class="tp-product-icon">';
-                                produkHtml += '<a href="productd"><i class="fal fa-search"></i></a>';
+                                produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"><i class="fal fa-search"></i></a>';
                             produkHtml += '</div>';
                         produkHtml += '</div>';
                         produkHtml += '<div class="tpproduct__meta">';
-                            produkHtml += '<h4 class="tp-product-title">' + produk.nama_produk + '</h4>';
+                            produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '" class="tp-product-title">' + produk.nama_produk + '</a>';
                             produkHtml += '<p class="text-truncate card-text">' + produk.informasi_produk + '</p>';
                             produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"class="tp-btn-detail">Lihat Detail <i class="far fa-arrow-right"></i></a>';
                         produkHtml += '</div>';
@@ -98,9 +97,103 @@
         }
         
     });
-    function detail_produk(id){
-        window.location.replace("productd?id=" + id);
-    }
+
+    // detail produk
+    $(document).ready(function(){
+         $.ajax({
+               url : "<?php echo base_url('front/details')?>/<?= $this->input->get('id')?>",
+               type: "GET",
+               dataType: "JSON",
+               success: function(data)
+               {
+                //   console.log(data.nama_produk);
+                    $('[name="thumbnail_1"]').attr('src',data.gambar1_produk);
+                    $('[name="thumbnail_2"]').attr('src',data.gambar2_produk);
+                    $('[name="thumbnail_3"]').attr('src',data.gambar3_produk);
+                    $('[name="tagline_produk"]').text(data.tagline_produk).val();
+                    $('[name="title_produk"]').text(data.nama_produk).val();
+                    $('[name="nama_produk"]').text(data.nama_produk).val();
+                    $('[name="kategori_produk"]').text(data.kategori_produk).val();
+                    $('[name="info_produk"]').text(data.informasi_produk).val();
+                    $('[name="deskripsi"]').text(data.feature_produk).val();
+
+               },
+               error: function (jqXHR, textStatus, errorThrown)
+               {
+                  console.log('Error get data from ajax');
+               }
+         });
+      });
+
+    // Produk terkait
+    var produk_terkait = new Swiper('.produk-terkait', {
+		// Optional parameters
+		
+		loop: true,
+		slidesPerView: 3,
+		spaceBetween: 30,
+		// Navigation arrows
+		preloadImages: false,
+		lazy: {
+		  loadPrevNext: true,
+		  loadOnTransitionStart: true
+		},
+		observer: true,
+		observeParents: true,
+		observeSlideChildren: true,
+		breakpoints: {
+			'1200': {
+				slidesPerView: 3,
+			},
+			'992': {
+				slidesPerView: 3,
+			},
+			'768': {
+				slidesPerView: 2,
+			},
+			'576': {
+				slidesPerView: 1,
+			},
+			'0': {
+				slidesPerView: 1,
+			},
+		},
+
+	  });
+
+    $(document).ready(function(){
+        $.ajax({
+            url : "<?php echo base_url('barang/produk_terkait')?>",
+            type: "GET",
+            dataType: "JSON",
+            success: function(data)
+            {
+                var terkait = '';
+                $.each(data, function(index, produk) {
+                    terkait += '<div class="swiper-slide">';
+                        terkait += '<div class="tpproduct text-center mb-30">';
+                            terkait += '<div class="tpproduct__img">';
+                                terkait += '<img class="w-100" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/8/25/e2122064-7fef-4c95-a153-8049c48a52ab.jpg" alt="">';
+                                terkait += '<div class="tp-product-icon">';
+                                    terkait += '<a href="productd?id=' + produk.id_detailproduk + '"><i class="fal fa-search"></i></a>';
+                                terkait += '</div>';
+                            terkait += '</div>';
+                            terkait += '<div class="tpproduct__meta">';
+                                terkait += '<a href="productd?id=' + produk.id_detailproduk + '" class="tp-product-details-title">' + produk.nama_produk + '</a>';
+                                terkait += '<p class="text-truncate card-text">' + produk.informasi_produk + '</p>';
+                            terkait += '</div>';
+                        terkait += '</div>';
+                    terkait += '</div>';
+                });
+                produk_terkait.appendSlide(terkait);
+                produk_terkait.update();
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                console.log('Error get data from ajax');
+            }
+        });
+    });
 </script>
 
 
