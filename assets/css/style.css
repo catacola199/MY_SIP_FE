@@ -66,10 +66,10 @@
   --tp-grey-2: #f8f8f8;
   --tp-text-body: #8A90A2;
   --tp-text-p: #8A90A2;
-  --tp-theme-1: #205295  ;
+  --tp-theme-1: #62CDFF  ;
   --tp-theme-2: #423EF3;
   --tp-theme-primary: #FE5722;
-  --tp-theme-secondary: #205295 ;
+  --tp-theme-secondary: #62CDFF ;
   --tp-border-1: #E8ECF2;
   --tp-border-2: #4E4E59;
 }
@@ -5190,7 +5190,7 @@ input[type=color] {
 }
 
 .tp-creative-pink {
-  background-color: #00ADB4 ;
+  background-color: #62CDFF ;
 }
 
 .creative-shape-img {
@@ -6716,14 +6716,24 @@ input[type=color] {
   margin-bottom: 0;
 }
 
-.fea-color-4 a {
-  background-color: rgba(30, 226, 207, 0.15);
+.fea-color-price a {
+  background-color: #F5F1F0;
   color: var(--tp-common-paste);
 }
 
-.fea-color-5 a {
-  background-color: rgba(252, 220, 2, 0.15);
-  color: var(--tp-theme-primary);
+.fea-color-respon a {
+  background-color: #F5F1F0;
+  color: var(--tp-common-paste);
+}
+
+.fea-color-service a {
+  background-color: #F5F1F0;
+  color: var(--tp-common-paste);
+}
+
+.fea-color-doc a {
+  background-color: #F5F1F0;
+  color: var(--tp-theme-paste);
 }
 
 .fea-wrapper-main:last-child {
@@ -8770,7 +8780,7 @@ input[type=color] {
 /*  13. testimonial css start
 /*----------------------------------------*/
 .tp-testimonial-item {
-  background-color: #00ADB4 ;
+  background-color: #62CDFF ;
   padding: 60px 45px;
   border-radius: 20px;
 }
@@ -9791,7 +9801,7 @@ input[type=color] {
 }
 
 .tp-mission-img {
-  margin-left: 110px;
+  margin-left: 80px;
 }
 .tp-mission-img img {
   max-width: 100%;
@@ -9941,7 +9951,7 @@ input[type=color] {
 }
 
 .ac-chose-bg {
-  background-color: var(--tp-grey-1);
+  background-color: var(--tp-common-black);
   border-radius: 20px;
   padding: 80px 80px 50px 80px;
 }
@@ -10145,7 +10155,7 @@ input[type=color] {
 
 .tp-product-details-title {
   font-size: 18px;
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
   font-weight: 500;
 }
 .tp-product-details-title:hover {
@@ -10648,7 +10658,7 @@ input[type=color] {
 .tab-para p {
   font-size: 16px;
   line-height: 30px;
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
 }
 
 .comments-box {
@@ -10772,11 +10782,11 @@ input[type=color] {
 }
 
 .tp-product-slider{
-  background-color: #303942;
+  
 }
 
 .tp-product-slider-title {
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
   font-size: 30px;
   font-weight: 500;
 }
@@ -14891,7 +14901,7 @@ blockquote cite::before {
   height: 80px;
   width: 100%;
   border: 0;
-  background-color: #00969b ;
+  background-color: #48c3fc ;
   box-shadow: 0px, 14px rgba(255, 255, 255, 0.04);
   border-radius: 5px;
   font-weight: 400;

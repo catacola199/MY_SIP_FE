@@ -18,7 +18,7 @@
    </section>
    <!-- breadcrumb area end -->
    <!--product-details-area-start -->
-   <div class="tp-product-details-area tp-product-background pt-130" id="show">
+   <div class="tp-product-details-area  pt-130" id="show">
       <div class="container">
          <div class="row align-items-center justify-content-center">
             <div class="col-xl-5 col-lg-6 col-12">
@@ -112,7 +112,7 @@
 
 
    <!-- product-slider-area-end -->
-   <div class="tp-product-slider tp-productend-background pb-100">
+   <div class="tp-product-slider pb-100">
       <div class="container">
          <div class="row justify-content-center">
             <div class="col-xl-10">
