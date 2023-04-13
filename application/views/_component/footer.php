@@ -1,7 +1,7 @@
 </main>
 
 <footer>
-    <div class="tp-footer-area black-bg pt-50">
+    <div class="tp-footer-area black-bg pt-100">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6">
@@ -74,7 +74,7 @@
 
         <div class="tp-copyright-area">
             <div class="container">
-                <div class="copyright-border pt-30">
+                <div class="copyright-border pt-70">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-12">
                             <div class="tp-copyright-left text-lg-start text-start text-md-center">

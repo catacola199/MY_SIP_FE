@@ -55,11 +55,11 @@
                <div class="productdetails">
                   <div class="productdetails__content">
                      <span name="kategori_produk" class="badge text-bg-light mb-2"></span>
-                     <h1 class="text-title text-white" name="nama_produk"></h1>
+                     <h1 class="text-title " name="nama_produk"></h1>
                      <p name="tagline_produk" class="text-secondary fst-italic"></p>
                   </div>
                   <div class="productdetails__ratting">
-                     <h5 class="text-title text-white" name="info_produk"></h5>
+                     <h5 class="text-title" name="info_produk"></h5>
                   </div>
                   <div class="productdetails__button mt-30">
                      <button class="tp-btn-sm-sky d-flex align-items-center">

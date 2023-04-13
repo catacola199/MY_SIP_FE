@@ -58,3 +58,4 @@ $route['about'] = 'front/about';
 $route['product'] = 'front/produk';
 $route['productd'] = 'front/produk_details';
 $route['contact'] = 'front/kontak';
+$route['services'] = 'front/service_cali';
