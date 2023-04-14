@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -58,4 +58,6 @@ $route['about'] = 'front/about';
 $route['product'] = 'front/produk';
 $route['productd'] = 'front/produk_details';
 $route['contact'] = 'front/kontak';
-$route['services'] = 'front/service_cali';
+$route['kalibrasi'] = 'front/service_kalibrasi';
+$route['ukes'] = 'front/service_ukes';
+$route['teknik'] = 'front/service_teknik';

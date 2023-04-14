@@ -1,26 +1,46 @@
 <?php
-class Front extends CI_Controller{
-	function __construct(){
+class Front extends CI_Controller
+{
+	function __construct()
+	{
 		parent::__construct();
 		$this->load->model('m_barang');
 	}
-	function index(){
+	function index()
+	{
 		$this->load->view('index');
 	}
-	function about(){
+	function about()
+	{
 		$this->load->view('about');
 	}
-	function produk(){
+	function produk()
+	{
 		$this->load->view('product');
 	}
-	function kontak(){
+	function kontak()
+	{
 		$this->load->view('contact');
 	}
-	function produk_details(){
+	function produk_details()
+	{
 		$this->load->view('product-details');
 	}
-	function details($id){
-		$data=$this->m_barang->barang($id);
+	function service_kalibrasi()
+	{
+		$this->load->view('service-kalibrasi');
+	}
+	function service_teknik()
+	{
+		$this->load->view('service-teknik');
+	}
+	function service_ukes()
+	{
+		$this->load->view('service-ukes');
+	}
+	function details($id)
+	{
+		$data = $this->m_barang->barang($id);
 		echo json_encode($data);
 	}
 
