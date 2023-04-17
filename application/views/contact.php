@@ -13,7 +13,7 @@
          <div class="row">
             <div class="col-xxl-12">
                <div class="breadcrumb__content p-relative z-index-1">
-                  <h3 class="breadcrumb__title">About Collax</h3>
+                  <h3 class="breadcrumb__title">Contact</h3>
                   <a href="contact.html" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
                </div>
             </div>
@@ -30,15 +30,17 @@
             <div class="col-xl-6 col-lg-6 ">
                <div class="tp-contct-wrapper contact-space-40">
                   <div class="tp-contact-thumb mb-60">
-                     <img src="assets/img/contact/contact-1.jpg" alt="">
+                     <img src="assets/img/contact/3.png" alt="">
                   </div>
                   <div class="tp-contact-info mb-40">
                      <h4 class="contact-title">Mail Address</h4>
-                     <span><a href="mailto:marketingsip@sriintanperkasa.com">marketingsip@sriintanperkasa.com</a></span>
+                     <span><a href="mailto:marketingsip@sriintanperkasa.com">marketingsip@sriintanperkasa.com</a></span><br>
+                     <span><a href="mailto:trading.sriintanperkasa@gmail.com">trading.sriintanperkasa@gmail.com</a></span>
                   </div>
                   <div class="tp-contact-info mb-40">
                      <h4 class="contact-title">Phone Number</h4>
-                     <span><a href="tel:0218873435">+6221-887-3435</a></span>
+                     <span><a href="tel:0218873435">(021) 887 3435</a></span>
+                     <span><a href="tel:0218873435">(021) 887 3691</a></span>
                   </div>
                   <div class="tp-contact-info">
                      <h4 class="contact-title">Address line</h4>

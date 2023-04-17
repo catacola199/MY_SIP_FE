@@ -6821,13 +6821,13 @@ input[type=color] {
   border-radius: 50%;
 }
 .tpchosebox__content h4 {
-  color: var(--tp-common-text);
+  color: var(--tp-grey-1);
   font-size: 24px;
   font-weight: 500;
   padding-bottom: 15px;
 }
 .tpchosebox__content h4 a {
-  background-image: linear-gradient(#EEEEEE , #EEEEEE ), linear-gradient(#EEEEEE , #EEEEEE  0);
+  background-image: linear-gradient(#cecdcd , #cecdcd ), linear-gradient(#cecdcd , #cecdcd  0);
   display: inline;
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
@@ -6838,7 +6838,7 @@ input[type=color] {
   background-size: 0% 1px, 100% 1px;
 }
 .tpchosebox__content p {
-  color: var(--tp-common-text);
+  color: var(--tp-grey-1);
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 0;
