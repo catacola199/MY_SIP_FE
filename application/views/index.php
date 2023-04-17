@@ -1,11 +1,4 @@
 <?php $this->load->view('_component/head') ?>
-<?php $this->load->view('_component/header') ?>
-
-<!-- tp-offcanvus-area-start -->
-<?php $this->load->view('_component/_btn-top-bar') ?>
-<!-- tp-offcanvus-area-end -->
-
-<main>
    <!-- tp-hero-area-start -->
    <div class="tp-hero-area tp-hero-space p-relative z-index-1 fix">
       <div class="tp-hero-shape">
@@ -803,9 +796,5 @@
 </button>
 <!-- backto-top-area-end -->
 
-
 <!-- JS here -->
 <?php $this->load->view('_component/jquery') ?>
-</body>
-
-</html>

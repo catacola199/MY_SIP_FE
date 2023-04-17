@@ -51,13 +51,13 @@
 
 
 	///////////////////////////////////////////////////
-	// 06. PreLoader Js
-	windowOn.on('load',function() {
-		$("#loading").fadeOut(500);
+	window.addEventListener('load', function() {
+		// Hide the preloader once the webpage is fully loaded
+		var preloader = document.getElementById('preloader');
+		preloader.style.display = 'none';
+		document.body.classList.remove('disable-scrolling');
 
 	});
-
-
 
 	// 04. Scroll Up Js
 	function smoothSctollTop() {
@@ -72,11 +72,6 @@
 		});
 	}
 	smoothSctollTop();
-
-
-
-
-
 
 	///////////////////////////////////////////////////
 	// 07. Sticky Header Js
