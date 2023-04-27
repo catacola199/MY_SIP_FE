@@ -9,7 +9,7 @@ class Barang extends CI_Controller{
 	}
 
 	function data_barang(){
-		$data=$this->m_barang->barang_list();
+		$data=$this->m_barang->getAlldata();
 		echo json_encode($data);
 	}
 

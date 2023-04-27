@@ -33,11 +33,11 @@
          </div>
          <div class="tp-hero-social pb-30 wow tpfadeIn" data-wow-duration=".7s" data-wow-delay="1.2s">
              <div class="tp-hero-social bp-hero-social">
-                 <a class="social-icon-fb" href="https://web.facebook.com/sriintanprkasa"><i class="fab fa-facebook-f social-icon-fb"></i><span>Facebook</span>
+                 <a class="social-icon-fb" href="https://web.facebook.com/sriintanprkasa" target="_blank"><i class="fab fa-facebook-f social-icon-fb"></i><span>Facebook</span>
                  </a>
-                 <a class="social-icon-yt" href="https://www.youtube.com/channel/UCK2K1Ls98_a95UtdMcCYnhA"><i class="fab fa-youtube social-icon-yt"></i><span>youtube</span></a><br>
-                 <a class="social-icon-2" href="https://www.instagram.com/sriintanperkasa/"><i class="fab fa-instagram social-icon-2"></i><span>instagram</span></a>
-                 <a class="social-icon-4" href="https://id.linkedin.com/in/sriintanperkasa"><i class="fab fa-linkedin-in social-icon-4"></i><span>Linkedin</span></a>
+                 <a class="social-icon-yt" href="https://www.youtube.com/channel/UCK2K1Ls98_a95UtdMcCYnhA" target="_blank"><i class="fab fa-youtube social-icon-yt"></i><span>youtube</span></a><br>
+                 <a class="social-icon-2" href="https://www.instagram.com/sriintanperkasa/" target="_blank"><i class="fab fa-instagram social-icon-2"></i><span>instagram</span></a>
+                 <a class="social-icon-4" href="https://id.linkedin.com/in/sriintanperkasa" target="_blank"><i class="fab fa-linkedin-in social-icon-4"></i><span>Linkedin</span></a>
              </div>
          </div>
 

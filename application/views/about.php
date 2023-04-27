@@ -13,7 +13,7 @@
             <div class="col-xxl-12">
                <div class="breadcrumb__content p-relative z-index-1">
                   <h3 class="breadcrumb__title">About</h3>
-                  <a href="#more" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
+                  <a href="whatsapp://send?text=SayaInginMembeli&phone=+6281213561966" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
                </div>
             </div>
          </div>
