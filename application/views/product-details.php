@@ -47,11 +47,19 @@
             </div>
          </div>
          <div class="col-xl-5 col-lg-6 col-12">
+
             <div class="productdetails">
                <div class="productdetails__content">
                   <span name="kategori_produk" class="badge text-bg-light mb-2"></span>
                   <h1 class="text-title " name="nama_produk"></h1>
                   <p name="tagline_produk" class="text-secondary fst-italic"></p>
+               </div>
+               <div class="productdetails__model">
+                  <h5>Model</h5>
+                  <?php foreach ($kategori as $data) : ?>
+
+                     <a href="#"><?php echo $data->nama_kategori ?></a>
+                  <?php endforeach; ?>
                </div>
                <div class="productdetails__ratting">
                   <h5 class="text-title" name="info_produk"></h5>
@@ -62,6 +70,7 @@
                   </button>
                </div>
             </div>
+
          </div>
       </div>
       <div class="row">
