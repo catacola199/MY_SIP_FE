@@ -15884,7 +15884,7 @@ blockquote cite::before {
 
 .footer-clip-shape {
   position: absolute;
-  top: -2px;
+  top: -6px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -16015,7 +16015,7 @@ blockquote cite::before {
 }
 
 .tp-clip-height-one {
-  height: 95px;
+  height: 85px;
   background: #303942 ;
 }
 
