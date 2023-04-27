@@ -23,8 +23,18 @@ class M_barang extends CI_Model
 	{
 		$this->db->select('`produk_detail_gambar`.`gambar_produk`');
 		$this->db->from('produk_detail');
-		$this->db->join('produk_detail_gambar', 'produk_detail_gambar.konten_id = produk_detail.konten_id', 'left');
-		$this->db->where('produk_detail.`konten_id`',$this->input->get('id'));
+		$this->db->join('produk_detail_gambar', 'produk_detail_gambar.konten_id = produk_detail.konten_id');
+		$this->db->where('produk_detail.`id_detailproduk`',$this->input->get('id'));
+		$query = $this->db->get();
+		return  $query->result();
+	}
+
+	public function getdetailKategori()
+	{
+		$this->db->select('`produk_detail_kategori`.`nama_kategori`');
+		$this->db->from('produk_detail');
+		$this->db->join('produk_detail_kategori', 'produk_detail_kategori.konten_id = produk_detail.konten_id');
+		$this->db->where('produk_detail.`id_detailproduk`',$this->input->get('id'));
 		$query = $this->db->get();
 		return  $query->result();
 	}

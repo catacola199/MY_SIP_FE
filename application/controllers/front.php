@@ -24,8 +24,9 @@ class Front extends CI_Controller
 	}
 	function produk_details()
 	{
+		$data["kategori"] = $this->m_barang->getdetailKategori();
 		$data["konten"] = $this->m_barang->getdetailGambar();
-		$this->load->view('product-details',$data);
+		$this->load->view('product-details', $data);
 	}
 	function service_kalibrasi()
 	{
