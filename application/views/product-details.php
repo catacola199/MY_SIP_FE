@@ -31,7 +31,7 @@
                   <?php foreach ($konten as $data) : ?>
                      <div class="carousel-inner">
                         <div class="carousel-item active">
-                           <img src="<?php echo $data->gambar_produk ?>" name="thumbnail_1" class="d-block w-100" alt="...">
+                           <img src="<?php echo $data->gambar_produk ?>" name="thumbnail_1" class="d-block w-100" alt="....">
                         </div>
                      </div>
                   <?php endforeach; ?>
@@ -65,9 +65,9 @@
                   <h5 class="text-title" name="info_produk"></h5>
                </div>
                <div class="productdetails__button mt-30">
-                  <button class="tp-btn-sm-sky d-flex align-items-center">
-                     <i class='bx bxl-whatsapp' style="font-size:1.5rem; margin-right:.5rem"></i> Chat Now
-                  </button>
+                  <a href="" name="chat_now"class="tp-btn-sm-sky d-flex align-items-center" style="width : fit-content;">
+                     Chat Now <i class='bx bx-send' style="font-size:1.5rem;"></i>
+                  </a>
                </div>
             </div>
 

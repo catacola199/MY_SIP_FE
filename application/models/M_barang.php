@@ -73,6 +73,7 @@ class M_barang extends CI_Model
 	{
 		$this->db->select('*');
 		$this->db->from('produk_detail');
+		$this->db->join('produk_detail_gambar', 'produk_detail_gambar.konten_id = produk_detail.konten_id');
 		$this->db->order_by('rand()');
 		$this->db->limit(5);
 		$query = $this->db->get();

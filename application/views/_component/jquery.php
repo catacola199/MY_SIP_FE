@@ -76,14 +76,14 @@
                         produkHtml += '<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".6s" data-wow-delay="' + anim + 's">';
                         produkHtml += '<div class="tpproduct text-center mb-30">';
                         produkHtml += '<div class="tpproduct__img">';
-                        produkHtml += '<img class="img-fluid" src="' + produk.gambar_produk + '" alt="">';
+                        produkHtml += '<img class="img-fluid" src="' + produk.gambar_produk + '" alt="' + produk.nama_produk + '">';
                         produkHtml += '<div class="tp-product-icon">';
                         produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"><i class="fal fa-search"></i></a>';
                         produkHtml += '</div>';
                         produkHtml += '</div>';
                         produkHtml += '<div class="tpproduct__meta">';
                         produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '" class="tp-product-title">' + produk.nama_produk + '</a>';
-                        produkHtml += '<p class="text-truncate card-text">' + produk.informasi_produk + '</p>';
+                        produkHtml += '<p class="text-truncate card-text">' + produk.feature_produk + '</p>';
                         produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"class="tp-btn-detail">Lihat Detail <i class="far fa-arrow-right"></i></a>';
                         produkHtml += '</div>';
                         produkHtml += '</div>';
@@ -104,7 +104,8 @@
             type: "GET",
             dataType: "JSON",
             success: function(data) {
-                //   console.log(data.nama_produk);
+                var kata = "Hai, Saya ingin menanyakan tentang "+data.nama_produk+" ini";
+                var link = "https://api.whatsapp.com/send?phone=+6281213561966&text="<?= rawurldecode('')?>+kata;
                 $('[name="thumbnail_1"]').attr('src',data.gambar1_produk);
                 $('[name="tagline_produk"]').text(data.tagline_produk).val();
                 $('[name="title_produk"]').text(data.nama_produk).val();
@@ -112,7 +113,7 @@
                 $('[name="kategori_produk"]').text(data.kategori_produk).val();
                 $('[name="info_produk"]').text(data.informasi_produk).val();
                 $('[name="deskripsi"]').text(data.feature_produk).val();
-
+                $('[name="chat_now"]').attr('href',link);
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 console.log('Error get data from ajax');
@@ -167,7 +168,7 @@
                     terkait += '<div class="swiper-slide">';
                     terkait += '<div class="tpproduct text-center mb-30">';
                     terkait += '<div class="tpproduct__img">';
-                    terkait += '<img class="w-100" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/8/25/e2122064-7fef-4c95-a153-8049c48a52ab.jpg" alt="">';
+                    terkait += '<img class="w-100" src="'+produk.gambar_produk+'"alt="'+produk.nama_produk+'">';
                     terkait += '<div class="tp-product-icon">';
                     terkait += '<a href="productd?id=' + produk.id_detailproduk + '"><i class="fal fa-search"></i></a>';
                     terkait += '</div>';
