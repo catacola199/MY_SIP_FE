@@ -94,10 +94,8 @@
                            <div class="amfeature__list">
                               <ul>
                                  <li><i class="fal fa-check"></i> Ensure readiness and preparation to face every risk and opportunity.</li>
-                                 <li><i class="fal fa-check"></i> To become the most complete provider of medical devices in Indonesia.</li>
                                  <li><i class="fal fa-check"></i> Establish, implement and certify quality that covers all requirements of ISO 9001, ISO 14001, ISO 45001 and KAN ISO 17025.</li>
                                  <li><i class="fal fa-check"></i> Providing service, comfort and speed in service and the best product quality for all clients / custumers of PT. Sri Intan Perkasa.</li>
-                                 <li><i class="fal fa-check"></i> Become a company that actively participates in serving the community, improving internal personnel standards, and developing the country.</li>
                                  <li><i class="fal fa-check"></i> Communicate and educate on the importance of meeting the requirements in laws and regulations, regulations in the field of quality and other stated regulatory requirements.</li>
 
                               </ul>
@@ -117,13 +115,12 @@
                               </span>
                               team to victory
                            </h2>
-                           <p class="pb-20">We are a team of passionate business consultant,s & Technology <br>
-                              veterans eager to help companies rech their full potential.</p>
-                           <p>By understanding the client,s condition and leveraging our best
-                              experience and knowledge. we support reform by recommending
-                              the most appropriate methods and sesources.By understanding the client,s condition and
-                              leveraging our experience and knowledge. we support reform by recommending the most .
-                           </p>
+                           <div class="amfeature__list">
+                              <ul>
+                                 <li><i class="fal fa-check"></i> To become the most complete provider of medical devices in Indonesia.</li>
+                                 <li><i class="fal fa-check"></i> Become a company that actively participates in serving the community, improving internal personnel standards, and developing the country.</li>                                
+                              </ul>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -139,12 +136,9 @@
                               </span>
                               better service - in over the world
                            </h2>
-                           <p class="pb-20">We are a team of passionate business consultant,s & Technology <br>
-                              veterans eager to help companies rech their full potential.</p>
-                           <p>By understanding the client,s condition and leveraging our best
-                              experience and knowledge. we support reform by recommending
-                              the most appropriate methods and sesources.By understanding the client,s condition and
-                              leveraging our experience and knowledge. we support reform by recommending the most .
+                           <p class="pb-10 ratakanan">As a company in the radiology medical care business, we prioritize the needs of our customers in accessing high-quality medical care services. 
+                              </p>
+                           <p class="ratakanan">We offer a range of products and services to assist in the diagnosis and treatment of patients. We are committed to providing prompt maintenance and after-purchase services to ensure that our customers can use radiology medical equipment to its fullest potential.
                            </p>
                         </div>
                      </div>
