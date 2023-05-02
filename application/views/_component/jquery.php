@@ -109,9 +109,10 @@
                 $('[name="thumbnail_1"]').attr('src',data.gambar1_produk);
                 $('[name="tagline_produk"]').text(data.tagline_produk).val();
                 $('[name="title_produk"]').text(data.nama_produk).val();
+                $('[name="kode_produk"]').text(data.kode_produk).val();
                 $('[name="nama_produk"]').text(data.nama_produk).val();
                 $('[name="kategori_produk"]').text(data.kategori_produk).val();
-                $('[name="info_produk"]').text(data.informasi_produk).val();
+                $('[name="info_produk"]').attr('src',data.informasi_produk);
                 $('[name="deskripsi"]').text(data.feature_produk).val();
                 $('[name="chat_now"]').attr('href',link);
             },

@@ -17,7 +17,7 @@
 </section>
 <!-- breadcrumb area end -->
 <!--product-details-area-start -->
-<div class="tp-product-details-area  pt-130" id="show">
+<div class="tp-product-details-area pt-70" id="show">
    <div class="container">
       <div class="row align-items-center justify-content-center">
          <div class="col-xl-5 col-lg-6 col-12">
@@ -65,7 +65,7 @@
                   <h5 class="text-title" name="info_produk"></h5>
                </div>
                <div class="productdetails__button mt-30">
-                  <a href="" name="chat_now"class="tp-btn-sm-sky d-flex align-items-center" style="width : fit-content;">
+                  <a href="" target="_blank" name="chat_now" class="tp-btn-sm-sky d-flex align-items-center" style="width : fit-content;">
                      Chat Now <i class='bx bx-send' style="font-size:1.5rem;"></i>
                   </a>
                </div>
@@ -95,11 +95,13 @@
                         <div class="tab-para tab-pane fade show active" id="home-1" role="tabpanel" aria-labelledby="home-tab-1">
                            <p class="mb-30" name="deskripsi"></p>
                         </div>
-                        <div class="tab-pane fade" id="additional-information" role="tabpanel" aria-labelledby="information-tab">
-                           <div class="product__details-info table-responsive">
-                              <img src="assets/img/product/b.png" alt="">
+                        <?php foreach ($IP as $data) : ?>
+                           <div class="tab-pane fade" id="additional-information" role="tabpanel" aria-labelledby="information-tab">
+                              <div class="product__details-info table-responsive">
+                                 <img src="<?php echo base_url('upload/brosur/thumbnail/' . $data->informasi_produk) ?>" name="info_produk" alt="">
+                              </div>
                            </div>
-                        </div>
+                        <?php endforeach; ?>
                         <div class="tab-pane fade" id="chart" role="tabpanel" aria-labelledby="size-chart-tab">
                            <?php $this->load->view('_component/faq') ?>
                         </div>

@@ -39,6 +39,15 @@ class M_barang extends CI_Model
 		return  $query->result();
 	}
 
+	public function getdetailInformasiProduk()
+	{
+		$this->db->select('`produk_detail`.`informasi_produk`');
+		$this->db->from('produk_detail');
+		$this->db->where('produk_detail.`id_detailproduk`',$this->input->get('id'));
+		$query = $this->db->get();
+		return  $query->result();
+	}
+
 
 	function get_by_id($id)
 	{
