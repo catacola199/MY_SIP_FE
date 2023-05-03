@@ -114,7 +114,7 @@
                 $('[name="nama_produk"]').text(data.nama_produk).val();
                 $('[name="kategori_produk"]').text(data.kategori_produk).val();
                 $('[name="info_produk"]').attr('src',data.informasi_produk);
-                $('[name="deskripsi"]').text(data.feature_produk).val();
+                $('[id="additional-information"]').html(data.feature_produk);
                 $('[name="chat_now"]').attr('href',link);
             },
             error: function(jqXHR, textStatus, errorThrown) {
