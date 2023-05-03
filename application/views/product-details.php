@@ -102,7 +102,7 @@
                            </div>
                         <?php endforeach; ?>
                         <div class="tab-pane fade" id="additional-information" role="tabpanel" aria-labelledby="information-tab">
-                           <p class="mb-30" name="deskripsi"></p>
+                          
                         </div>
 
                         <div class="tab-pane fade" id="chart" role="tabpanel" aria-labelledby="size-chart-tab">
