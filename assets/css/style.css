@@ -10365,7 +10365,7 @@ input[type=color] {
 .productdetails__content p {
   font-size: 16px;
   font-weight: 400;
-  color: #777B83;
+  color: var(--tp-common-black);
   line-height: 26px;
   padding-bottom: 10px;
 }
@@ -10397,7 +10397,7 @@ input[type=color] {
   color: #B9B9B9;
 }
 .productdetails__model {
-  padding-bottom: 45px;
+  padding-bottom: 5px;
 }
 .productdetails__model h5 {
   font-size: 16px;

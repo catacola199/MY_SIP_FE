@@ -52,7 +52,8 @@
                <div class="productdetails__content">
                   <span name="kategori_produk" class="badge text-bg-light mb-2"></span>
                   <h1 class="text-title " name="nama_produk"></h1>
-                  <p name="tagline_produk" class="text-secondary fst-italic"></p>
+                  <h3 class="text-title " name="tagline_produk"></h3>
+                  <p name="kode_produk" class="text-secondary fst-italic"></p>
                </div>
                <div class="productdetails__model">
                   <h5>Model</h5>
@@ -69,6 +70,7 @@
                      Chat Now <i class='bx bx-send' style="font-size:1.5rem;"></i>
                   </a>
                </div>
+
             </div>
 
          </div>
@@ -81,27 +83,28 @@
                      <div class="pro-details-nav mb-40">
                         <ul class="nav nav-tabs pro-details-nav-btn" id="myTabs" role="tablist">
                            <li class="nav-item" role="presentation">
-                              <button class="nav-links active" id="home-tab-1" data-bs-toggle="tab" data-bs-target="#home-1" type="button" role="tab" aria-controls="home-1" aria-selected="true"><span>Prodcut Details</span></button>
+                              <button class="nav-links active" id="home-tab-1" data-bs-toggle="tab" data-bs-target="#home-1" type="button" role="tab" aria-controls="home-1" aria-selected="true"><span>Specifications</span></button>
                            </li>
                            <li class="nav-item" role="presentation">
-                              <button class="nav-links" id="information-tab" data-bs-toggle="tab" data-bs-target="#additional-information" type="button" role="tab" aria-controls="additional-information" aria-selected="false"><span>Additional Info</span></button>
+                              <button class="nav-links" id="information-tab" data-bs-toggle="tab" data-bs-target="#additional-information" type="button" role="tab" aria-controls="additional-information" aria-selected="false"><span>Feature Product</span></button>
                            </li>
                            <li class="nav-item" role="presentation">
-                              <button class="nav-links" id="size-chart-tab" data-bs-toggle="tab" data-bs-target="#chart" type="button" role="tab" aria-controls="chart" aria-selected="false"><span>Faq</span></button>
+                              <button class="nav-links" id="size-chart-tab" data-bs-toggle="tab" data-bs-target="#chart" type="button" role="tab" aria-controls="chart" aria-selected="false"><span>Additional Info</span></button>
                            </li>
                         </ul>
                      </div>
                      <div class="tab-content tp-content-tab" id="myTabContent-2">
-                        <div class="tab-para tab-pane fade show active" id="home-1" role="tabpanel" aria-labelledby="home-tab-1">
-                           <p class="mb-30" name="deskripsi"></p>
-                        </div>
                         <?php foreach ($IP as $data) : ?>
-                           <div class="tab-pane fade" id="additional-information" role="tabpanel" aria-labelledby="information-tab">
+                           <div class="tab-para tab-pane fade show active" id="home-1" role="tabpanel" aria-labelledby="home-tab-1">
                               <div class="product__details-info table-responsive">
                                  <img src="<?php echo base_url('upload/brosur/thumbnail/' . $data->informasi_produk) ?>" name="info_produk" alt="">
                               </div>
                            </div>
                         <?php endforeach; ?>
+                        <div class="tab-pane fade" id="additional-information" role="tabpanel" aria-labelledby="information-tab">
+                           <p class="mb-30" name="deskripsi"></p>
+                        </div>
+
                         <div class="tab-pane fade" id="chart" role="tabpanel" aria-labelledby="size-chart-tab">
                            <?php $this->load->view('_component/faq') ?>
                         </div>
