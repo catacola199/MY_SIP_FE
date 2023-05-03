@@ -9,7 +9,7 @@ class M_barang extends CI_Model
 
 	public function getAlldata()
 	{
-		$this->db->select('`produk_detail`.`id_detailproduk`,`produk_detail`.`konten_id`,`produk_detail`.`nama_produk`, `produk_detail`.`informasi_produk`, `produk_detail`.`tagline_produk`, `produk_detail`.`kode_produk`,
+		$this->db->select('`produk_detail`.`id_detailproduk`,`produk_detail`.`konten_id`,`produk_detail`.`nama_produk`, `produk_detail`.`informasi_produk`, `produk_detail`.`tagline_produk`, `produk_detail`.`jenis_kode_produk`, `produk_detail`.`kode_produk`,
         `produk_detail`.`feature_produk`, `produk_detail`.`file_produk`, `produk_detail_kategori`.`nama_kategori`,`produk_detail_gambar`.`gambar_produk`');
 		$this->db->from('produk_detail');
 		$this->db->join('produk_detail_kategori', 'produk_detail_kategori.konten_id = produk_detail.konten_id', 'left');
@@ -34,6 +34,15 @@ class M_barang extends CI_Model
 		$this->db->select('`produk_detail_kategori`.`nama_kategori`');
 		$this->db->from('produk_detail');
 		$this->db->join('produk_detail_kategori', 'produk_detail_kategori.konten_id = produk_detail.konten_id');
+		$this->db->where('produk_detail.`id_detailproduk`',$this->input->get('id'));
+		$query = $this->db->get();
+		return  $query->result();
+	}
+
+	public function getdetailInformasiProduk()
+	{
+		$this->db->select('`produk_detail`.`informasi_produk`');
+		$this->db->from('produk_detail');
 		$this->db->where('produk_detail.`id_detailproduk`',$this->input->get('id'));
 		$query = $this->db->get();
 		return  $query->result();

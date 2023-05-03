@@ -83,7 +83,7 @@
                         produkHtml += '</div>';
                         produkHtml += '<div class="tpproduct__meta">';
                         produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '" class="tp-product-title">' + produk.nama_produk + '</a>';
-                        produkHtml += '<p class="text-truncate card-text">' + produk.feature_produk + '</p>';
+                        produkHtml += '<p class="text-truncate card-text">' + produk.jenis_kode_produk +" : "+ produk.kode_produk + '</p>';
                         produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"class="tp-btn-detail">Lihat Detail <i class="far fa-arrow-right"></i></a>';
                         produkHtml += '</div>';
                         produkHtml += '</div>';
@@ -106,12 +106,14 @@
             success: function(data) {
                 var kata = "Hai, Saya ingin menanyakan tentang "+data.nama_produk+" ini";
                 var link = "https://api.whatsapp.com/send?phone=+6281213561966&text="<?= rawurldecode('')?>+kata;
+                var kode =data.jenis_kode_produk+" : "+data.kode_produk;
                 $('[name="thumbnail_1"]').attr('src',data.gambar1_produk);
                 $('[name="tagline_produk"]').text(data.tagline_produk).val();
                 $('[name="title_produk"]').text(data.nama_produk).val();
+                $('[name="kode_produk"]').text(kode).val();
                 $('[name="nama_produk"]').text(data.nama_produk).val();
                 $('[name="kategori_produk"]').text(data.kategori_produk).val();
-                $('[name="info_produk"]').text(data.informasi_produk).val();
+                $('[name="info_produk"]').attr('src',data.informasi_produk);
                 $('[name="deskripsi"]').text(data.feature_produk).val();
                 $('[name="chat_now"]').attr('href',link);
             },
