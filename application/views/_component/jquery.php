@@ -177,7 +177,7 @@
                     terkait += '</div>';
                     terkait += '<div class="tpproduct__meta">';
                     terkait += '<a href="productd?id=' + produk.id_detailproduk + '" class="tp-product-details-title">' + produk.nama_produk + '</a>';
-                    terkait += '<p class="text-truncate card-text">' + produk.informasi_produk + '</p>';
+                    terkait += '<p class="text-truncate card-text">' + produk.jenis_kode_produk +" : "+  produk.kode_produk + '</p>';
                     terkait += '</div>';
                     terkait += '</div>';
                     terkait += '</div>';

@@ -59,7 +59,7 @@
                   <h5>Model</h5>
                   <?php foreach ($kategori as $data) : ?>
 
-                     <a href="#"><?php echo $data->nama_kategori ?></a>
+                     <a href="#!"><?php echo $data->nama_kategori ?></a>
                   <?php endforeach; ?>
                </div>
                <div class="productdetails__ratting">
