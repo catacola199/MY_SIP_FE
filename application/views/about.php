@@ -6,7 +6,7 @@
    <!-- breadcrumb area start -->
    <section class="breadcrumb__area  breadcrumb__pt-310 include-bg p-relative" data-background="assets/img/breadcrum/test.jpg">
       <div class="ac-about-shape-img">
-         <img src="assets/img/breadcrum/icon.png" alt="">
+         <img src="assets/img/breadcrum/ab-shape-1.1.jpg" alt="">
       </div>
       <div class="container">
          <div class="row">
@@ -147,7 +147,7 @@
             </div>
             <div class="col-xl-6 col-lg-5 col-md-12 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
                <div class="tp-mission-img">
-                  <img src="assets/img/mission/collage.png" alt="">
+                  <img src="assets/img/mission/oa.png" alt="">
                </div>
             </div>
          </div>
