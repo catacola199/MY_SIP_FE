@@ -97,7 +97,7 @@
                         <?php foreach ($IP as $data) : ?>
                            <div class="tab-para tab-pane fade show active" id="home-1" role="tabpanel" aria-labelledby="home-tab-1">
                               <div class="product__details-info table-responsive">
-                                 <img src="<?php echo base_url('upload/brosur/thumbnail/' . $data->informasi_produk) ?>" name="info_produk" alt="">
+                                 <img src="" name="info_produk" alt="">
                               </div>
                            </div>
                         <?php endforeach; ?>
