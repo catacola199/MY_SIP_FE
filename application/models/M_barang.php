@@ -88,4 +88,15 @@ class M_barang extends CI_Model
 		$query = $this->db->get();
 		return $query->result();
 	}
+
+	public function filterBarang($kategori)
+	{
+		$this->db->select('*');
+		$this->db->from('produk_detail');
+		$this->db->join('produk_detail_gambar', 'produk_detail.konten_id = produk_detail_gambar.konten_id','left');
+		$this->db->join('produk_detail_kategori', 'produk_detail.konten_id = produk_detail_kategori.konten_id','left');
+		$this->db->where('produk_detail_kategori.`nama_kategori`',$kategori);
+		$query = $this->db->get();
+		return  $query->result();
+	}
 }

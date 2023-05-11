@@ -20,11 +20,10 @@
         var produkPerHalaman = 8;
         // memuat produk pertama kali
         loadProduk(1, produkPerHalaman);
-        // setInterval(loadProduk(1, produkPerHalaman), 10000);
-        // fungsi untuk memuat produk menggunakan Ajax
+
         function loadProduk(halaman, produkPerHalaman) {
             $.ajax({
-                url: '<?php echo base_url() ?>barang/data_barang',
+                url: '<?php echo base_url() ?>barang/filterProduk',
                 dataType: 'json',
                 success: function(data) {
                     // menghitung jumlah halaman
@@ -94,7 +93,86 @@
                 }
             });
         }
+        $('#filter').change(function(){
+            var filter = $('#filter').val();
+            loadProduk(1, produkPerHalaman);
+            function loadProduk(halaman, produkPerHalaman) {
 
+                // alert(filter);
+                $.ajax({
+                    url: '<?php echo base_url() ?>barang/filterProduk',
+                    dataType: 'json',
+                    type:'GET',
+                    data: {filter:filter},
+                    success: function(data) {
+                        // menghitung jumlah halaman
+                        var jumlahHalaman = Math.ceil(data.length / produkPerHalaman);
+
+                        // menentukan halaman sebelumnya dan berikutnya
+                        var halamanSebelumnya = (halaman > 1) ? halaman - 1 : 1;
+                        var halamanBerikutnya = (halaman < jumlahHalaman) ? halaman + 1 : jumlahHalaman;
+
+                        // menentukan range halaman yang akan ditampilkan
+                        var rangeAwal = Math.max(1, halaman - 1);
+                        var rangeAkhir = Math.min(jumlahHalaman, halaman + 1);
+                        if (rangeAkhir - rangeAwal < 2) {
+                            if (rangeAwal == 1) {
+                                rangeAkhir = Math.min(jumlahHalaman, rangeAwal + 2);
+                            } else {
+                                rangeAwal = Math.max(1, rangeAkhir - 2);
+                            }
+                        }
+
+                        // membuat tombol navigasi pagination
+                        var paginationHtml = '';
+                        if (halaman > 1) {
+                            paginationHtml += '<li style="cursor: pointer;"><a href="#more" class="page-link pagination-button prev" data-halaman="' + halamanSebelumnya + '"><i class="far fa-angle-left"></i></a></li>';
+                        }
+                        for (var i = rangeAwal; i <= rangeAkhir; i++) {
+                            // paginationHtml += '<li class="page-item' + ((i == halaman) ? ' active' : '') + '"><button class="page-link pagination-button" data-halaman="' + i + '">' + i + '</button></li>';
+                            paginationHtml += '<li style="cursor: pointer;"><a href="#more" class="page-link pagination-button' + ((i == halaman) ? ' current disabled' : '') + '" data-halaman="' + i + '">' + i + '</a></li>';
+                        }
+                        if (halaman < jumlahHalaman) {
+                            paginationHtml += '<li style="cursor: pointer;"><a href="#more" class="page-link pagination-button next" data-halaman="' + halamanBerikutnya + '"><i class="far fa-angle-right"></i></a></li>';
+                            // paginationHtml += '<li class="page-item"><button class="page-link pagination-button next" data-halaman="' + halamanBerikutnya + '">Next</button></li>';
+                        }
+                        $('#pagination').html(paginationHtml);
+
+                        // menambahkan event click pada tombol navigasi pagination
+                        $('.pagination-button').click(function() {
+                            var halaman = $(this).data('halaman');
+                            loadProduk(halaman, produkPerHalaman);
+                        });
+                        // menghitung index produk yang akan ditampilkan
+                        var indexMulai = (halaman - 1) * produkPerHalaman;
+                        var indexAkhir = indexMulai + produkPerHalaman;
+
+                        // memuat produk yang sesuai dengan index
+                        var produkHtml = '';
+                        var anim = .4;
+                        $.each(data.slice(indexMulai, indexAkhir), function(index, produk) {
+                            produkHtml += '<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow tpfadeUp" data-wow-duration=".6s" data-wow-delay="' + anim + 's">';
+                            produkHtml += '<div class="tpproduct text-center mb-30">';
+                            produkHtml += '<div class="tpproduct__img">';
+                            produkHtml += '<img class="img-fluid" src="' + produk.gambar_produk + '" alt="' + produk.nama_produk + '">';
+                            produkHtml += '<div class="tp-product-icon">';
+                            produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"><i class="fal fa-search"></i></a>';
+                            produkHtml += '</div>';
+                            produkHtml += '</div>';
+                            produkHtml += '<div class="tpproduct__meta">';
+                            produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '" class="tp-product-title">' + produk.nama_produk + '</a>';
+                            produkHtml += '<p class="text-truncate card-text">' + produk.jenis_kode_produk +" : "+ produk.kode_produk + '</p>';
+                            produkHtml += '<a href="productd?id=' + produk.id_detailproduk + '"class="tp-btn-detail">Lihat Detail <i class="far fa-arrow-right"></i></a>';
+                            produkHtml += '</div>';
+                            produkHtml += '</div>';
+                            produkHtml += '</div>';
+                            anim += .1;
+                        });
+                        $('#produk').html(produkHtml);
+                    }
+                });
+            }
+        });
     });
 
     // detail produk

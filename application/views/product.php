@@ -21,6 +21,20 @@ data-background="assets/img/breadcrum/12.jpg">
 <!-- product-area-start -->
 <div class="tp-product-area pt-130 pb-130" id="more">
    <div class="container">
+      <div class="row g-3 align-items-center mb-3">
+         <div class="col-auto">
+            <label for="filter" class="col-form-label fs-5 fw-medium">Filter </label>
+         </div>
+         <div class="col-auto">
+            <select class="form-select" aria-label=".form-select-lg example" id="filter">
+               <option selected disabled>Semua</option>
+               <option value="Accesories">Accesories</option>
+               <option value="X-ray">X-ray</option>
+               <option value="Mobile">Mobile</option>
+               <option value="USG">USG</option>
+            </select>
+         </div>
+      </div>
       <div class="row d-flex justify-content-center" id="produk">
          <div class="card text-center border border-0" style="width: 35rem">
             <div class="card-body">
