@@ -1,6 +1,6 @@
  <!-- tp-offcanvus-area-start -->
  <div class="tp-offcanvas-area">
-     <div class="tpoffcanvas">
+     <div class="tpoffcanvas" style="overflow-y: hidden">
          <div class="tpoffcanvas__logo">
              <a href="index.php">
                  <img src="assets/img/logo/logo_kecil2.png" alt="">

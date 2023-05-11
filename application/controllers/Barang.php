@@ -27,4 +27,15 @@ class Barang extends CI_Controller{
 	// 	$id = $this->input->get('id');
 	// 	return $this->db->get_where('produk_detail', ['id_detailproduk' => $id])->result();
 	// }
+
+	function filterProduk(){
+		$kategori = $this->input->get('filter');
+		if ($kategori){
+			$data=$this->m_barang->filterBarang($kategori);
+		}else{
+			$data=$this->m_barang->getAlldata();
+		}
+		echo json_encode($data);
+
+	}
 }
