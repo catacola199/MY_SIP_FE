@@ -128,7 +128,7 @@
          <div class="row">
             <div class="col-12">
                <div class="tp-brand-section text-center pb-60">
-                  <h4 class="tp-brand-title">We are Already Build Solution for...</h4>
+                  <h4 class="tp-brand-title">Our Partners . . .</h4>
                </div>
             </div>
          </div>
@@ -215,10 +215,10 @@
                            <img src="assets/img/service/ukes.png" alt="">
                         </div>
                         <div class="tp-sv-content pl-60">
-                           <h3 class="tp-sv-title2 mb-35"><a href="service-details.php">Conformity Test</a></h3>
-                           <p class="mb-30 ratakanan">Conformity Test is a testing activity carried out to ensure an X-ray aircraft is in reliable condition.</p>
+                           <h3 class="tp-sv-title2 mb-35"><a href="service-details.php">Uji Kesesuaian</a></h3>
+                           <p class="mb-30 ratakanan">Uji Kesesuaian adalah kegiatan pengujian yang dilakukan untuk memastikan pesawat sinar-X dalam kondisi andal.</p>
                            <div class="tp-sv-link mt-35">
-                              <a href="service-3.php"><i class="far fa-arrow-right"></i> Learn More</a>
+                              <a href="service-3.php"><i class="far fa-arrow-right"></i> Lebih Lengkap<</a>
                            </div>
                         </div>
                      </div>
@@ -231,11 +231,11 @@
                            <img src="assets/img/service/kalibrasi.png" alt="">
                         </div>
                         <div class="tp-sv-content pl-60">
-                           <h3 class=" tp-sv-title2 mb-35"><a href="service-details.php">Calibration</a></h3>
-                           <p class="mb-30 ratakanan">Calibration is an application activity to determine the correctness of the value of the designation of measuring instruments as well
-                              as measuring materials and ensure the availability of medical devices that are in accordance with standardization and are suitable for use in Health Facilities.</p>
+                           <h3 class=" tp-sv-title2 mb-35"><a href="service-details.php">Kalibrasi</a></h3>
+                           <p class="mb-30 ratakanan">Kalibrasi adalah kegiatan penerapan untuk menentukan kebenaran nilai penunjukan alat ukur serta sebagai 
+                              bahan ukur serta menjamin ketersediaan alat kesehatan yang sesuai dengan standardisasi dan layak pakai di Fasilitas Kesehatan.</p>
                            <div class="tp-sv-link mt-35">
-                              <a href="service-details.php"><i class="far fa-arrow-right"></i> Learn More</a>
+                              <a href="service-details.php"><i class="far fa-arrow-right"></i> Lebih Lengkap</a>
                            </div>
                         </div>
                      </div>
@@ -249,11 +249,11 @@
                            <img src="assets/img/service/teknisi.png" alt="">
                         </div>
                         <div class="tp-sv-content pl-60">
-                           <h3 class=" tp-sv-title2 mb-35"><a href="service-details.php">Technician</a></h3>
-                           <p class="mb-30 ratakanan">Technician services provide installation and service of X-Ray products, including equipment installation and routine service.
-                              With this service, customers can ensure their X-Ray products function optimally and receive regular maintenance.</p>
+                           <h3 class=" tp-sv-title2 mb-35"><a href="service-details.php">Teknisi</a></h3>
+                           <p class="mb-30 ratakanan">Layanan teknisi menyediakan instalasi dan servis produk X-Ray, termasuk instalasi peralatan dan servis rutin. 
+                              Dengan layanan ini, pelanggan dapat memastikan produk X-Ray mereka berfungsi secara optimal dan mendapatkan perawatan rutin.</p>
                            <div class="tp-sv-link mt-35">
-                              <a href="service-4.php"><i class="far fa-arrow-right"></i> Learn More</a>
+                              <a href="service-4.php"><i class="far fa-arrow-right"></i> Lebih Lengkap<</a>
                            </div>
                         </div>
                      </div>
@@ -274,7 +274,7 @@
             <div class="col-xl-5 col-lg-12 col-md-12">
                <div class="tp-project-section-box">
                   <h5 class="tp-subtitle">Produk</h5>
-                  <h2 class="tp-title">Best Seller</h2>
+                  <h2 class="tp-title">Produk Terbaik</h2>
                </div>
             </div>
             <div class="col-xl-7 col-lg-12 col-md-12">
@@ -361,9 +361,8 @@
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Collax was very diligent, polite and extremely customer oriented. I think Monika will
-                              go
-                              far with that attitude and ...he is such a honest, decent and reliable.</p>
+                           <p>Saya sangat puas dengan pengalaman pembelian saya di perusahaan Sri Intan Perkasa, 
+                              layanan yang diberikan sangat profesional dan produk yang diterima berkualitas tinggi.</p>
                         </div>
                      </div>
                   </div>
@@ -387,9 +386,8 @@
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Collax was very diligent, polite and extremely customer oriented. I think Monika will
-                              go
-                              far with that attitude and ...he is such a honest, decent and reliable.</p>
+                           <p>Saya sangat merekomendasikan perusahaan Sri Intan Perkasa kepada siapa pun yang mencari pengalaman pembelian 
+                              yang menyenangkan, produk berkualitas, dan pelayanan pelanggan yang baik.</p>
                         </div>
                      </div>
                   </div>
@@ -408,14 +406,11 @@
                               <i class="fas fa-star"></i>
                               <i class="fas fa-star"></i>
                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Collax was very diligent, polite and extremely customer oriented. I think Monika will
-                              go
-                              far with that attitude and ...he is such a honest, decent and reliable.</p>
+                           <p>Pembelian saya di perusahaan Sri Intan Perkasa memberikan kepuasan yang luar biasa 
+                              dengan pelayanan yang ramah, pengiriman yang cepat, dan produk yang sesuai dengan harapan.</p>
                         </div>
                      </div>
                   </div>
@@ -445,9 +440,8 @@
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a
-                              true professional. he is such a honest, decent and reliable. He always provide good
-                              service</p>
+                           <p>Perusahaan Sri Intan Perkasa telah memberikan pengalaman pembelian yang sempurna 
+                              dengan layanan pelanggan yang responsif, proses transaksi yang mudah, dan produk berkualitas tinggi.</p>
                         </div>
                      </div>
                   </div>
@@ -467,12 +461,11 @@
                               <i class="fas fa-star"></i>
                               <i class="fas fa-star"></i>
                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Collax is a very talented designer and his most valuable role is to teach design in a
-                              professional way. He trained design courses under my company Chartered Professional</p>
+                           <p>Pembelian saya di perusahaan Sri Intan Perkasa merupakan pilihan yang tepat, karena tidak hanya 
+                              mendapatkan produk yang berkualitas, tetapi juga didukung oleh tim yang kompeten dan tanggap dalam menangani kebutuhan dan pertanyaan saya.</p>
                         </div>
                      </div>
                   </div>
@@ -496,9 +489,8 @@
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a
-                              true professional. he is such a honest, decent and reliable. He always provide good
-                              service</p>
+                           <p>Pengalaman berbelanja di perusahaan Sri Intan Perkasa sangat memuaskan, dari kualitas produk yang sangat baik hingga pelayanan pelanggan yang ramah dan efisien,
+                               membuat saya merasa yakin untuk kembali berbelanja di sana di masa mendatang.</p>
                         </div>
                      </div>
                   </div>
@@ -522,9 +514,8 @@
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a
-                              true professional. he is such a honest, decent and reliable. He always provide good
-                              service</p>
+                           <p>Saya sangat terkesan dengan profesionalisme dan integritas perusahaan Sri Intan Perkasa dalam menjalankan transaksi bisnis,
+                               mereka memastikan bahwa pembelian saya berjalan lancar dan memenuhi harapan saya.</p>
                         </div>
                      </div>
                   </div>
@@ -544,13 +535,11 @@
                               <i class="fas fa-star"></i>
                               <i class="fas fa-star"></i>
                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
                            </div>
                         </div>
                         <div class="tp-testi-p-text">
-                           <p>Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a
-                              true professional. he is such a honest, decent and reliable. He always provide good
-                              service</p>
+                           <p>Pengalaman berbelanja di perusahaan Sri Intan Perkasa benar-benar menyenangkan, karena selain mendapatkan produk berkualitas, 
+                              saya juga merasakan kepuasan dari pelayanan yang cepat, efisien, dan ramah dari tim mereka.</p>
                         </div>
                      </div>
                   </div>
@@ -702,7 +691,7 @@
                </div>
                <div class="col-xl-5 col-lg-5 col-md-5 col-12">
                   <div class="tp-footer-button text-start text-md-end">
-                     <a class="tp-btn" href="contact.php">Available for new Project<i class="far fa-arrow-right"></i> </a>
+                     <a class="tp-btn" href="contact">Available for new Project<i class="far fa-arrow-right"></i> </a>
                   </div>
                </div>
             </div>

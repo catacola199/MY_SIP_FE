@@ -10,7 +10,7 @@
              <a class="close-btn" href="javascript:void(0)"><i class="fal fa-times-hexagon"></i></a>
          </div>
          <div class="tpoffcanvas__content d-none d-sm-block">
-             <p>We deploy world-class Creative <br> on demand.</p>
+             <p>Kami selalu memberikan pelayanan <br> terbaik kepada pelanggan.</p>
          </div>
          <div class="mobile-menu">
 
