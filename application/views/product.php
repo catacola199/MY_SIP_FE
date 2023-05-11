@@ -27,7 +27,7 @@ data-background="assets/img/breadcrum/12.jpg">
          </div>
          <div class="col-auto">
             <select class="form-select" aria-label=".form-select-lg example" id="filter">
-               <option selected disabled>Semua</option>
+               <option selected value="semua">Semua</option>
                <option value="Accesories">Accesories</option>
                <option value="X-ray">X-ray</option>
                <option value="Mobile">Mobile</option>

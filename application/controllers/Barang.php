@@ -35,6 +35,9 @@ class Barang extends CI_Controller{
 		}else{
 			$data=$this->m_barang->getAlldata();
 		}
+		if($kategori == 'semua'){
+			$data=$this->m_barang->getAlldata();
+		}
 		echo json_encode($data);
 
 	}
