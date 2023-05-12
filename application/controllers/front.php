@@ -38,10 +38,10 @@ class Front extends CI_Controller
 	{
 		$config = Array(
 			'protocol' => 'smtp',
-			'smtp_host' => 'ssl://smtp.googlemail.com',
+			'smtp_host' => 'smtp.hostinger.com',
 			'smtp_port' => 465,
-			'smtp_user' => 'delvirovio@gmail.com',
-			'smtp_pass' => 'Furqon1312#',
+			'smtp_user' => 'dkisip@sriintanperkasa.com',
+			'smtp_pass' => 'Dki2023#',
 			'mailtype'  => 'html',
 			'charset'   => 'iso-8859-1'
 			
@@ -49,7 +49,7 @@ class Front extends CI_Controller
 		$this->load->library('email',$config);
 		$this->email->initialize($config);
 
-		$from_email = 'delvirovio@gmail.com';
+		$from_email = 'dkisip@sriintanperkasa.com';
 		$to_email = $this->input->post('email');
 		$this->email->from($from_email);
 		$this->email->to($to_email);
