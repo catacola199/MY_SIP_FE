@@ -24,7 +24,7 @@
 
 
    <!--contact-area-start -->
-   <form action="<?php echo base_url('Front/send_email') ?>" method="post" autocomplete="off" enctype="multipart/form-data">
+  <?= form_open('front/send_email')?>
       <div class="tp-contact-area pt-135 pb-130">
          <div class="container">
             <div class="row">
@@ -54,7 +54,7 @@
          </div>
       </div>
       <!-- contact-area-end -->
-   </form>
+   <?= form_close() ?>
 </main>
 
 <?php $this->load->view('_component/footer') ?>
