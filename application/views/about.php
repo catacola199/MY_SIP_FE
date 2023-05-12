@@ -39,10 +39,9 @@
                </div>
                <div class="col-xl- col-lg-6 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">
                   <div class="ac-about-right">
-                     <p class="pb-25">PT. Sri Intan Perkasa is also known as a company that runs X-ray Film and X-ray Accessories but with the passage of time,
-                        we can develop products into several categories such as; X-ray machine, CT-Scan, Dental X-ray, Radiation tester.
-                        And we plan towards laboratories and other medical support equipment</p>
-                     <p>All the goals and achievements obtained are proof to show how wholeheartedly we are to maintain and develop the quality of goods and services for all our customers in Indonesia.</p>
+                     <p class="pb-25">PT. Sri Intan Perkasa juga dikenal sebagai perusahaan yang bergerak di bidang X-ray Film dan X-ray Accessories, namun dengan berjalannya waktu, kami dapat mengembangkan
+                        produk ke dalam beberapa kategori seperti; mesin X-ray, CT-Scan, Dental X-ray, Radiation tester. Dan kami berencana menuju laboratorium dan peralatan penunjang medis lainnya</p>
+                     <p>Semua tujuan dan pencapaian yang diperoleh adalah bukti yang menunjukkan betapa sepenuh hati kami menjaga dan mengembangkan kualitas barang dan jasa untuk semua pelanggan kami di Indonesia.</p>
                   </div>
                </div>
             </div>
@@ -83,9 +82,9 @@
                   <div class="tab-pane fade show active" id="Mission" role="tabpanel" aria-labelledby="nav-Mission-tab" tabindex="0">
                      <div class="tpmission">
                         <div class="tpmission__content">
-                           <h2 class="tp-mission-title">Ensure Quality Care with
+                           <h2 class="tp-mission-title">Inovasi medis
                               <span class="tp-section-highlight">
-                                 Quality Equipment
+                                 berkualitas untuk perawatan.
                                  <svg width="160" height="11" viewBox="0 0 160 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 0L160 11H0V0Z" fill="#FFDC60" />
                                  </svg>
@@ -93,10 +92,10 @@
                            </h2>
                            <div class="amfeature__list">
                               <ul>
-                                 <li><i class="fal fa-check"></i> Ensure readiness and preparation to face every risk and opportunity.</li>
-                                 <li><i class="fal fa-check"></i> Establish, implement and certify quality that covers all requirements of ISO 9001, ISO 14001, ISO 45001 and KAN ISO 17025.</li>
-                                 <li><i class="fal fa-check"></i> Providing service, comfort and speed in service and the best product quality for all clients / custumers of PT. Sri Intan Perkasa.</li>
-                                 <li><i class="fal fa-check"></i> Communicate and educate on the importance of meeting the requirements in laws and regulations, regulations in the field of quality and other stated regulatory requirements.</li>
+                                 <li><i class="fal fa-check"></i> Memastikan kesiapan dan persiapan untuk menghadapi setiap resiko dan peluang.</li>
+                                 <li><i class="fal fa-check"></i> Menetapkan, mengimplementasikan dan mengesahkan mutu yang mencakup seluruh persyaratan dari ISO 9001, ISO 14001, ISO 45001 dan KAN ISO 17025.</li>
+                                 <li><i class="fal fa-check"></i> Memberikan pelayanan, kenyamanan dan kecepatan dalam pelayanan dan kualitas produk terbaik untuk seluruh custumer PT.Sri Intan Perkasa.</li>
+                                 <li><i class="fal fa-check"></i> Mengkomunikasikan dan mengedukasikan terhadap pentingnya untuk memenuhi persyaratan di dalam peraturan perundangan, peraturan dibidang mutu maupun persyaratan peraturan dibilang lainnya.</li>
 
                               </ul>
                            </div>
@@ -106,19 +105,19 @@
                   <div class="tab-pane fade" id="Vission" role="tabpanel" aria-labelledby="nav-Vission-tab" tabindex="0">
                      <div class="tpmission">
                         <div class="tpmission__content">
-                           <h2 class="tp-mission-title">We laed your
+                           <h2 class="tp-mission-title">Pemimpin
                               <span class="tp-section-highlight">
-                                 business
+                                 dalam nenyediakan
                                  <svg width="201" height="12" viewBox="0 0 201 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 0L201 12H0V0Z" fill="#FFDC60" />
                                  </svg>
                               </span>
-                              team to victory
+                              teknologi medis
                            </h2>
                            <div class="amfeature__list">
                               <ul>
-                                 <li><i class="fal fa-check"></i> To become the most complete provider of medical devices in Indonesia.</li>
-                                 <li><i class="fal fa-check"></i> Become a company that actively participates in serving the community, improving internal personnel standards, and developing the country.</li>                                
+                                 <li><i class="fal fa-check"></i> Menjadi penyedia alat kesehatan yang tersebar dan terlengkap di Indonesia.</li>
+                                 <li><i class="fal fa-check"></i> Menjadi persuahaan yang turut ikut aktif dalam melayani masyarakat meningkatkan standaritas personil internal maupun membangun negara.</li>
                               </ul>
                            </div>
                         </div>
@@ -127,18 +126,18 @@
                   <div class="tab-pane fade " id="Value" role="tabpanel" aria-labelledby="nav-Value-tab" tabindex="0">
                      <div class="tpmission">
                         <div class="tpmission__content">
-                           <h2 class="tp-mission-title">Our vision is to
+                           <h2 class="tp-mission-title">Visi kami
                               <span class="tp-section-highlight">
-                                 provide
+                                 adalah
                                  <svg width="160" height="11" viewBox="0 0 160 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 0L160 11H0V0Z" fill="#FFDC60" />
                                  </svg>
                               </span>
-                              better service - in over the world
+                              memberikan layanan yang lebih baik - di seluruh dunia
                            </h2>
-                           <p class="pb-10 ratakanan">As a company in the radiology medical care business, we prioritize the needs of our customers in accessing high-quality medical care services. 
-                              </p>
-                           <p class="ratakanan">We offer a range of products and services to assist in the diagnosis and treatment of patients. We are committed to providing prompt maintenance and after-purchase services to ensure that our customers can use radiology medical equipment to its fullest potential.
+                           <p class="pb-10 ratakanan">Sebagai perusahaan yang bergerak di bidang perawatan medis radiologi, kami memprioritaskan kebutuhan pelanggan dalam mengakses layanan perawatan medis berkualitas tinggi.
+                           </p>
+                           <p class="ratakanan">Kami menawarkan berbagai produk dan layanan untuk membantu diagnosis dan perawatan pasien. Kami berkomitmen untuk menyediakan layanan pemeliharaan dan layanan purna jual yang cepat untuk memastikan bahwa pelanggan kami dapat menggunakan peralatan medis radiologi secara maksimal.
                            </p>
                         </div>
                      </div>
