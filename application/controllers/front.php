@@ -5,6 +5,7 @@ class Front extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->model('m_barang');
+		
 	}
 	function index()
 	{
@@ -33,6 +34,34 @@ class Front extends CI_Controller
 	{
 		$this->load->view('service-kalibrasi');
 	}
+	function send_email()
+	{
+		$config = Array(
+			'protocol' => 'smtp',
+			'smtp_host' => 'ssl://smtp.googlemail.com',
+			'smtp_port' => 465,
+			'smtp_user' => 'delvirovio@gmail.com',
+			'smtp_pass' => 'Furqon1312#',
+			'mailtype'  => 'html',
+			'charset'   => 'iso-8859-1'
+			
+		);
+		$this->load->library('email',$config);
+		$this->email->initialize($config);
+
+		$from_email = 'delvirovio@gmail.com';
+		$to_email = $this->input->post('email');
+		$this->email->from($from_email);
+		$this->email->to($to_email);
+		$this->email->subject('Test Subject');
+		$this->email->message('Test Message');
+
+		$this->email->send();
+		$this->session->set_flashdata('email_send', 'Email berhasil dikirim');
+		redirect(base_url('contact'));
+		
+	}
+
 	function service_teknik()
 	{
 		$this->load->view('service-teknik');
