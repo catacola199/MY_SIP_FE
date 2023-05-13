@@ -14,7 +14,7 @@
             <div class="col-xxl-12">
                <div class="breadcrumb__content p-relative z-index-1">
                   <h3 class="breadcrumb__title">Contact</h3>
-                  <a href="contact" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
+                  <a href="#contact-body" class="tp-btn-white-border">Lets work together <i class="far fa-arrow-right"></i></a>
                </div>
             </div>
          </div>
@@ -24,8 +24,7 @@
 
 
    <!--contact-area-start -->
-   <form action="<?php echo base_url('Front/send_email') ?>" method="post" autocomplete="off" enctype="multipart/form-data">
-      <div class="tp-contact-area pt-135 pb-130">
+      <div class="tp-contact-area pt-135 pb-130" id="contact-body">
          <div class="container">
             <div class="row">
                <div class="col-xl-6 col-lg-6 ">
@@ -40,21 +39,18 @@
                   <div class="tpcontact">
                      <h4 class="tp-contact-big-title">Let’s Talk...</h4>
                      <div class="tpcontact__form tpcontact__form-3">
-                        <form id="contact-form" action="assets/mail.php">
-                           <input name="name" type="text" placeholder="Enter your Name">
-                           <input name="email" id="email" type="email" placeholder="Enter your Mail">
-                           <textarea name="message" placeholder="Enter your Massage"></textarea>
+                        <form id="kirim">  
+                           <input id="name" name="name" type="text" placeholder="Enter your Name" required autocomplete="off">
+                           <input id="email" name="email" type="email" placeholder="Enter your Mail" required autocomplete="off">
+                           <textarea id="message" name="message" placeholder="Enter your Massage" required autocomplete="off"></textarea>
+                           <button type="submit" class="tp-btn-yellow">Send Massage</button>
                         </form>
-                        <button type="submit" class="tp-btn-yellow">Send Massage</button>
                      </div>
-                     <p class="ajax-response"></p>
                   </div>
                </div>
             </div>
          </div>
       </div>
       <!-- contact-area-end -->
-   </form>
 </main>
-
 <?php $this->load->view('_component/footer') ?>

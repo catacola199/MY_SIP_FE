@@ -26,8 +26,8 @@
          </div>
          <div class="tpoffcanvas__input d-none d-sm-block">
              <p>Get UPdate</p>
-             <form class="p-relative" action="#">
-                 <input type="text" placeholder="Enter mail">
+             <form class="p-relative" id="formOffCanvas">
+                 <input type="email" name="email" required placeholder="Enter mail">
                  <button type="submit"><i class="fas fa-paper-plane"></i></button>
              </form>
          </div>

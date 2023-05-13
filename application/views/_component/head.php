@@ -25,7 +25,7 @@
    <link rel="stylesheet" href="<?= base_url("assets/css/style.css")?>">
    <link rel="stylesheet" href="<?= base_url("assets/css/remixicon.css")?>">
    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css">
 
 </head>
 

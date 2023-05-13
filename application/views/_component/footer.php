@@ -62,8 +62,8 @@
                             <p>Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo</p>
                         </div>
                         <div class="tp-footer-widget__input">
-                            <form action="#">
-                                <input type="text" placeholder="Enter Mail">
+                            <form id="formFooter">
+                                <input type="email" name="email" required placeholder="Enter Mail">
                                 <button type="submit"><i class="fas fa-paper-plane"></i></button>
                             </form>
                         </div>

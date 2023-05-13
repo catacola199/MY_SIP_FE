@@ -49,16 +49,17 @@ class Front extends CI_Controller
 		$this->load->library('email',$config);
 		$this->email->initialize($config);
 
-		$from_email = 'dkisip@sriintanperkasa.com';
-		$to_email = $this->input->post('email');
-		$this->email->from($from_email);
-		$this->email->to($to_email);
-		$this->email->subject('Test Subject');
-		$this->email->message('Test Message');
+		// $from_email = 'dkisip@sriintanperkasa.com';
+		// $to_email = $this->input->post('email');
+        $this->email->from('dkisip@sriintanperkasa.com', 'SRI INTAN PERKASA');
+        $this->email->to($this->input->post('email'));
+        $this->email->subject('Contact SRI INTAN PERKASA');
+        $this->email->message($this->input->post('pesan'));
 
+		
 		$this->email->send();
-		$this->session->set_flashdata('email_send', 'Email berhasil dikirim');
-		redirect(base_url('contact'));
+		// $this->session->set_flashdata('email_send', 'Email berhasil dikirim');
+		// redirect(base_url('contact'));
 		
 	}
 
