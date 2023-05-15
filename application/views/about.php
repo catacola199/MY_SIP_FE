@@ -280,34 +280,75 @@
 
    <!-- tp-feature-area-end -->
 
-   <!-- news-area-start -->
-   <div class="tp-news-letter-area tp-news-letter-bg pt-30 pb-60" data-background="assets/img/news/news-bg.jpg">
+   <!-- brand-area-start -->
+   <div class="tp-brands-area theme-bg pt-125 pb-70">
       <div class="container">
-         <div class="row align-items-center">
-            <div class="col-xl-7 col-lg-7 col-md-12 ">
-               <div class="tp-news-sub-wrapper pr-50">
-                  <div class="tp-news-letter-section-box">
-                     <h5 class="tp-subtitle subtitle-secondary-color wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">Get every update</h5>
-                     <h2 class="tp-title-sm tp-title-sm tp-white-text pb-25 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">A recognizable & awarded partner..
-                        become our partner
-                     </h2>
-                  </div>
-                  <div class="tp-news-button wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
-                     <a class="tp-btn-lg-yellow mr-20" href="contact.html">Become a Partner</a>
-                     <a class="tp-btn-sky" href="about-me.html">Press Office</a>
-                  </div>
+         <div class="row">
+            <div class="col-xl-12">
+               <div class="tp-brands-title-two text-center mb-80">
+                  <h3>Our Client</h3>
                </div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-12 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".8s">
-               <div class="tp-news-letter-img text-md-start text-lg-end pr-45">
-                  <img src="assets/img/news/news-7.1.png" alt="">
+         </div>
+         <div class="row">
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/1.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/2.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/3.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/4.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/5.png" alt="">
+               </div>
+            </div>
+            
+         </div>
+         <div class="row">
+            
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/6.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/7.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/8.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/9.png" alt="">
+               </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               <div class="tp-brands-item text-start text-md-center mb-60">
+                  <img src="assets/img/brand/10.png" alt="">
                </div>
             </div>
          </div>
       </div>
    </div>
-
-   <!-- news-area-end -->
+   <!-- brand-area-end -->
 
 
 </main>
