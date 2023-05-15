@@ -7210,17 +7210,17 @@ input[type=color] {
 
 .tp-project-box {
   background-color: #F7F8FD;
-  padding: 40px;
+  padding: 15px;
   border-radius: 20px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-project-box {
-    padding: 40px 36px;
+    padding: 10px 10px;
   }
 }
 @media (max-width: 767px) {
   .tp-project-box {
-    padding: 20px;
+    padding: 5px;
   }
 }
 
@@ -7330,7 +7330,7 @@ input[type=color] {
 
 .tp-project-box-sm {
   background-color: #F7F8FD;
-  padding: 43px 0;
+  padding: 10px 0;
   border-radius: 20px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

@@ -296,7 +296,7 @@
                   <div class="col-xl-6 col-lg-12">
                      <div class="tp-project-box mb-20">
                         <div class="tp-project-img fix ">
-                           <img class="w-100" src="assets/img/project/b.png" alt="">
+                           <img class="w-100" src="assets/img/project/d.png" alt="">
                         </div>
 
                      </div>
@@ -306,14 +306,14 @@
                         <div class=" col-xl-12 col-lg-12">
                            <div class="tp-project-box  mb-20">
                               <div class="tp-project-img fix text-center ">
-                                 <img src="assets/img/project/a.png" alt="" class="img-fluid">
+                                 <img src="assets/img/project/t.png" alt="" class="img-fluid">
                               </div>
                            </div>
                         </div>
                         <div class="col-xl-12 col-lg-12">
-                           <div class="tp-project-box  mb-20">
+                           <div class="tp-project-box  ">
                               <div class="tp-project-img fix text-center ">
-                                 <img src="assets/img/project/a.png" alt="" class="img-fluid">
+                                 <img src="assets/img/project/t.png" alt="" class="img-fluid">
                               </div>
 
                            </div>
