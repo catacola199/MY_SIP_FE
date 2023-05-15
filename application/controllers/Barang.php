@@ -39,6 +39,13 @@ class Barang extends CI_Controller{
 			$data=$this->m_barang->getAlldata();
 		}
 		echo json_encode($data);
-
 	}
+	function kontak_pengguna() {
+		$data = array(
+			'nama_pengunjung'	        => $this->input->post('name'),
+			'email_pengunjung'	    	=> $this->input->post('email'),
+			'pesan_pengunjung'	    	=> $this->input->post('message')
+		);
+		$this->m_barang->simpanData($data);
+    }
 }

@@ -636,8 +636,8 @@
                      <h2 class="tp-title tp-white-text">Get latest updates and deals</h2>
                   </div>
                   <div class="tp-news-button p-relative">
-                     <form action="#">
-                        <input type="text" placeholder="Enter your mail">
+                     <form id="formIndex">
+                        <input type="email" name="email" required placeholder="Enter your mail">
                         <button class="tp-submit-button tp-btn-yellow-semilar" type="submit">Subscribe <i class="far fa-arrow-right"></i></button>
                      </form>
                   </div>

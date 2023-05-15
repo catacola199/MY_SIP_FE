@@ -99,4 +99,10 @@ class M_barang extends CI_Model
 		$query = $this->db->get();
 		return  $query->result();
 	}
+
+	public function simpanData($data)
+    {
+        $this->db->insert('contact_pengunjung', $data);
+		return true;
+    }
 }

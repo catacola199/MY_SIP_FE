@@ -9,15 +9,16 @@
 <script src="<?= base_url("assets/js/meanmenu.js") ?>"></script>
 <script src="<?= base_url("assets/js/isotope-pkgd.js") ?>"></script>
 <script src="<?= base_url("assets/js/imagesloaded-pkgd.js") ?>"></script>
-<script src="<?= base_url("assets/js/ajax-form.js") ?>"></script>
+<!-- <script src="<?= base_url("assets/js/ajax-form.js") ?>"></script> -->
 <script src="<?= base_url("assets/js/main.js") ?>"></script>
 <script src="<?= base_url("assets/tinymce/tinymce.min.js") ?>"></script>
-<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+<!-- <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
     $(document).ready(function() {
         // set jumlah produk per halaman
-        var produkPerHalaman = 8;
+        var produkPerHalaman = 12;
         // memuat produk pertama kali
         loadProduk(1, produkPerHalaman);
 
@@ -268,4 +269,152 @@
             }
         });
     });
+
+    $('#kirim').submit(function(e){
+        let timerInterval;
+        e.preventDefault();
+        var nama    =   $('#name').val();
+        var email    =   $('#email').val();
+        var message    =   $('#message').val();
+        console.log(nama,email,message);
+        var form = $('#kirim').serialize();
+        $.ajax({
+            url: '<?php echo base_url('barang/kontak_pengguna'); ?>',
+            type: 'POST',
+            cache	: false,
+            data: form,
+            success: function(data){
+                $('#kirim')[0].reset();
+                swal.fire({
+                imageUrl: '<?= base_url()?>/assets/img/loading.gif',
+                title: "Sending Mail",
+                text: "Please wait",
+                showConfirmButton: false,
+                allowOutsideClick: false,
+                timer: 1500,
+                timerProgressBar: true,
+                }).then((result) => {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success!',
+                        html: 'Message has been delivered! <br><br>',
+                        timer: 2000,
+                        timerProgressBar: true,
+                        showConfirmButton: false,
+                        allowOutsideClick: false,
+                        didOpen: () => {
+                            const b = Swal.getHtmlContainer().querySelector('b')
+                            timerInterval = setInterval(() => {
+                            b.textContent = Swal.getTimerLeft()
+                            }, 100)
+                        },
+                        willClose: () => {
+                            clearInterval(timerInterval)
+                        }
+                    });
+                });
+            }
+        });
+    });
+    $('#formFooter').submit(function(e){
+        e.preventDefault();
+        var form = $('#formFooter').serialize();
+        $.ajax({
+            url: '<?php echo base_url('barang/kontak_pengguna'); ?>',
+            type: 'POST',
+            cache	: false,
+            data: form,
+            success: function(data){
+                $('#formFooter')[0].reset();
+                swal.fire({
+                imageUrl: '<?= base_url()?>/assets/img/loading.gif',
+                title: "Sending Mail",
+                text: "Please wait",
+                showConfirmButton: false,
+                allowOutsideClick: false,
+                timer: 1500,
+                timerProgressBar: true,
+                }).then((result) => {
+                    swal.fire({
+                    icon: 'success',
+                    title: "Thank You!",
+                    html: 'Thank you for subscribe newsletter Sri Intan Perkasa<br>Get latest updates and deals<br>',
+                    showConfirmButton: false,
+                    allowOutsideClick: false,
+                    timer: 2500,
+                    timerProgressBar: true,
+                    });
+                });
+                
+            }
+        });
+    });
+
+    $('#formIndex').submit(function(e){
+        e.preventDefault();
+        var form = $('#formIndex').serialize();
+        $.ajax({
+            url: '<?php echo base_url('barang/kontak_pengguna'); ?>',
+            type: 'POST',
+            cache	: false,
+            data: form,
+            success: function(data){
+                $('#formIndex')[0].reset();
+                swal.fire({
+                imageUrl: '<?= base_url()?>/assets/img/loading.gif',
+                title: "Sending Mail",
+                text: "Please wait",
+                showConfirmButton: false,
+                allowOutsideClick: false,
+                timer: 1500,
+                timerProgressBar: true,
+                }).then((result) => {
+                    swal.fire({
+                    icon: 'success',
+                    title: "Thank You!",
+                    html: 'Thank you for subscribe newsletter Sri Intan Perkasa<br>Get latest updates and deals<br>',
+                    showConfirmButton: false,
+                    allowOutsideClick: false,
+                    timer: 2500,
+                    timerProgressBar: true,
+                    });
+                });
+                
+            }
+        });
+    });
+
+    // $('#formOffCanvas').submit(function(e){
+    //     e.preventDefault();
+    //     var form = $('#formOffCanvas').serialize();
+    //     $.ajax({
+    //         url: '<?php echo base_url('barang/kontak_pengguna'); ?>',
+    //         type: 'POST',
+    //         cache	: false,
+    //         data: form,
+    //         success: function(data){
+    //             $('#formOffCanvas')[0].reset();
+    //             swal.fire({
+    //             imageUrl: '<?= base_url()?>/assets/img/loading.gif',
+    //             title: "Sending Mail",
+    //             text: "Please wait",
+    //             showConfirmButton: false,
+    //             allowOutsideClick: false,
+    //             timer: 1500,
+    //             timerProgressBar: true,
+    //             }).then((result) => {
+    //                 swal.fire({
+    //                 icon: 'success',
+    //                 title: "Thank You!",
+    //                 html: 'Thank you for subscribe newsletter Sri Intan Perkasa<br>Get latest updates and deals<br>',
+    //                 showConfirmButton: false,
+    //                 allowOutsideClick: false,
+    //                 timer: 2500,
+    //                 timerProgressBar: true,
+    //                 });
+    //             });
+                
+    //         }
+    //     });
+    // });
 </script>
