@@ -10,14 +10,13 @@
                             <a href="index.html"><img src="assets/img/logo/logo_kecil.png" alt=""></a>
                         </div>
                         <div class="tp-footer-widget__text mb-30">
-                            <p>A new way to make the payments easy,
-                                reliable and 100% secure. claritatem itamconse quat. Exerci tationulla</p>
+                            <p>Kualitas Unggul, Keberkahan Kesehatan, Distributor Terpercaya, Melayani Anda dengan Cinta</p>
                         </div>
                         <div class="tp-footer-widget__social-link">
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-skype"></i></a>
+                            <a href="https://www.youtube.com/channel/UCK2K1Ls98_a95UtdMcCYnhA" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.tiktok.com/@sriintanperkasa" target="_blank"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://www.facebook.com/sriintanprkasa" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/sriintanperkasa/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +58,7 @@
                             <h3 class="footer-title">Subscribe Newslatter</h3>
                         </div>
                         <div class="tp-footer-widget__text mb-55">
-                            <p>Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo</p>
+                            
                         </div>
                         <div class="tp-footer-widget__input">
                             <form id="formFooter">

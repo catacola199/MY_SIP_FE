@@ -30,28 +30,27 @@
                <div class="sd-service-details">
                   <h3 class="tp-title-sm service-details-space">Find the best solution for every stage of your
                      business development</h3>
-
+                  <a href="https://api.whatsapp.com/send?phone=6281314379310" target="_blank">Buat Jadwal Kalibrasi <i class="fal fa-arrow-right"></i></a>
                </div>
             </div>
             <div class="col-xl-6 col-lg-6">
                <div class="sd-service-details-paragraph">
-                  <p class=" ratakanan">Calibration is an activity to determine the correctness of the value of the designation of
-                     measuring instruments as well as measuring materials and ensure the availability of medical devices that are in
-                     accordance with the requirements of quality, safety, benefits, safety and usability in Health Facilities in accordance with
-                     PERMENKES No. 54 of 2015, Article 4.</p>
-                  <p class=" ratakanan">Calibration is also a process of checking and adjusting the accuracy of medical devices by comparing with standards
-                     or benchmarks. Calibration is needed to ensure that the results of measurements or examinations carried out by the device are accurate
-                     and consistent with other instruments.</p>
-                  <p>Testing or Calibration of medical devices is carried out periodically at least 1 (one) time in 1 (one) year carried out by the Health
-                     Facility Testing Center or Health Facility Testing Institution.
+                  <p class=" ratakanan">Kalibrasi adalah kegiatan untuk menentukan kebenaran nilai penunjukan alat ukur serta bahan ukur dan menjamin tersedianya
+                     alat kesehatan yang sesuai dengan persyaratan mutu, keamanan, manfaat, keselamatan, dan kemanfaatan di Fasilitas Kesehatan sesuai dengan
+                     PERMENKES No. 54 Tahun 2015, Pasal 4.</p>
+                  <p class=" ratakanan">Kalibrasi juga merupakan proses pemeriksaan dan penyesuaian akurasi perangkat medis dengan membandingkannya dengan standar
+                     atau tolok ukur. Kalibrasi diperlukan untuk memastikan bahwa hasil pengukuran atau pemeriksaan yang dilakukan oleh alat tersebut akurat akurat
+                     dan konsisten dengan instrumen lain.</p>
+                  <p class=" ratakanan">Pengujian atau Kalibrasi alat kesehatan dilakukan secara berkala paling sedikit 1 (satu) kali dalam 1 (satu) tahun yang dilakukan oleh
+                     Balai Pengujian Fasilitas Kesehatan atau Institusi Penguji Fasilitas Kesehatan.
                   </p>
-                  <p>Calibration services include:</p>
+                  <p>Jasa Kalibrasi melingkupi :</p>
                   <ul>
                      <li>
-                        <p class="ri-check-double-line">All Medical Device</p>
+                        <p class="ri-check-double-line"> Seluruh Alat Kesehatan</p>
                      </li>
                      <li>
-                        <p class="ri-check-double-line">ASPAK</p>
+                        <p class="ri-check-double-line"> ASPAK</p>
                      </li>
                   </ul>
                </div>
@@ -63,22 +62,7 @@
                   <img src="assets/img/service/service-icon-10.1.png" alt="">
                </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
-               <div class="sd-service-details">
-                  <h3 class="tp-title-sm service-details-space">Design process based on best practices and
-                     methodologies that deliver</h3>
-               </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-               <div class="sd-service-details-paragraph">
-                  <p class="pb-15">A dedicated product design team can help you achieve your business goals. Whether
-                     you need to craft an idea for a completely new product or elevate the quality of an existing
-                     solution, we’ll help you to create a product that is laser targeted to your users’ needs and
-                     delivers business results.</p>
-                  <p>Design services range from research and product review to ideation, UX design, and user testing.
-                  </p>
-               </div>
-            </div>
+
          </div>
       </div>
    </div>
