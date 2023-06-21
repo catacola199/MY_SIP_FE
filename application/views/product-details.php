@@ -88,9 +88,7 @@
                            <li class="nav-item" role="presentation">
                               <button class="nav-links" id="information-tab" data-bs-toggle="tab" data-bs-target="#additional-information" type="button" role="tab" aria-controls="additional-information" aria-selected="false"><span>Feature Product</span></button>
                            </li>
-                           <li class="nav-item" role="presentation">
-                              <button class="nav-links" id="size-chart-tab" data-bs-toggle="tab" data-bs-target="#chart" type="button" role="tab" aria-controls="chart" aria-selected="false"><span>Additional Info</span></button>
-                           </li>
+                           
                         </ul>
                      </div>
                      <div class="tab-content tp-content-tab" id="myTabContent-2">
@@ -102,12 +100,12 @@
                            </div>
                         <?php endforeach; ?>
                         <div class="tab-pane fade" id="additional-information" role="tabpanel" aria-labelledby="information-tab">
-                          
+
                         </div>
 
-                        <div class="tab-pane fade" id="chart" role="tabpanel" aria-labelledby="size-chart-tab">
-                           <?php $this->load->view('_component/faq') ?>
-                        </div>
+                        <!-- <div class="tab-pane fade" id="chart" role="tabpanel" aria-labelledby="size-chart-tab">
+                           <?php $this->load->view('_component/faq') ?> 
+                        </div>-->
                      </div>
                   </div>
                </div>

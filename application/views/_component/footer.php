@@ -10,8 +10,7 @@
                             <a href="index.html"><img src="assets/img/logo/logo_kecil.png" alt=""></a>
                         </div>
                         <div class="tp-footer-widget__text mb-30">
-                            <p>A new way to make the payments easy,
-                                reliable and 100% secure. claritatem itamconse quat. Exerci tationulla</p>
+                            <p>Mitra Kesehatan Setia Melayani Kebutuhan Anda.</p>
                         </div>
                         <div class="tp-footer-widget__social-link">
                             <a href="#"><i class="fab fa-youtube"></i></a>

@@ -66,7 +66,7 @@
             <div class="col-lg-5 d-flex align-items-stretch ">
                <div class="info">
                   <div class="address">
-                     <i class="bi bi-geo-alt"></i>
+                     <i class="tpchosebox__icon" href="assets/img/svg/map.svg"></i>
                      <h4>Location:</h4>
                      <p>Ruko Grand Boulevard Blok U6/12 - Harapan Indah - Bekasi Barat, Medan Satria 17131</p>
                   </div>

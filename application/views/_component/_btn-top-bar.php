@@ -24,13 +24,7 @@
                  <li><i class="fas fa-star"></i> <a href="mailto:marketingsip@sriintanperkasa.com">marketingsip@sriintanperkasa.com</a></li>
              </ul>
          </div>
-         <div class="tpoffcanvas__input d-none d-sm-block">
-             <p>Get UPdate</p>
-             <form class="p-relative" id="formOffCanvas">
-                 <input type="email" name="email" required placeholder="Enter mail">
-                 <button type="submit"><i class="fas fa-paper-plane"></i></button>
-             </form>
-         </div>
+         
          <div class="tp-hero-social pb-30 wow tpfadeIn" data-wow-duration=".7s" data-wow-delay="1.2s">
              <div class="tp-hero-social bp-hero-social">
                  <a class="social-icon-fb" href="https://web.facebook.com/sriintanprkasa" target="_blank"><i class="fab fa-facebook-f social-icon-fb"></i><span>Facebook</span>

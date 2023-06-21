@@ -4,14 +4,14 @@
          <div class="row align-items-center">
             <div class="col-xl-3 col-lg-3">
                <div class="tp-logo">
-                  <a href="<?= base_url()?>"><img src="assets/img/logo/logo2.png" alt="" class="img-fluid"></a>
+                  <a href="<?= base_url() ?>"><img src="assets/img/logo/logo2.png" alt="" class="img-fluid"></a>
                </div>
             </div>
             <div class="col-xl-7 col-lg-7 text-center">
                <div class="tp-main-menu">
                   <nav id="mobile-menu">
                      <ul>
-                        <li><a href="<?= base_url()?>">Home</a></li>
+                        <li><a href="<?= base_url() ?>">Home</a></li>
                         <li><a href="about">About</a></li>
                         <li><a href="product">Product</a></li>
                         <li class="has-dropdown has-mega-menu"><a href="#">Services</a>
@@ -49,21 +49,21 @@
       </div>
    </div>
 </header>
-   <!-- mobile-menu-area -->
-   <div id="header-sticky-mobile" class="tp-md-menu header-transparent d-lg-none pt-40 pb-40">
-      <div class="container-fluid">
-         <div class="row align-items-center">
-            <div class="col-6">
-               <div class="tp-logo">
-                  <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
-               </div>
+<!-- mobile-menu-area -->
+<div id="header-sticky-mobile" class="tp-md-menu header-transparent d-lg-none pt-40 pb-40">
+   <div class="container-fluid">
+      <div class="row align-items-center">
+         <div class="col-6">
+            <div class="tp-logo">
+               <a href="<?= base_url() ?>"><img src="assets/img/logo/logo2.png" alt="" class="img-fluid"></a>
             </div>
-            <div class="col-6">
-               <div class="bar text-end">
-                  <button class="tp-menu-bar" type="submit"><i class="fal fa-bars"></i></button>
-               </div>
+         </div>
+         <div class="col-6">
+            <div class="bar text-end">
+               <button class="tp-menu-bar" type="submit"><i class="fal fa-bars"></i></button>
             </div>
          </div>
       </div>
    </div>
-   <!-- mobile-menu-area-end -->
+</div>
+<!-- mobile-menu-area-end -->
