@@ -66,19 +66,19 @@
             <div class="col-lg-5 d-flex align-items-stretch ">
                <div class="info">
                   <div class="address">
-                     <i class="tpchosebox__icon" href="assets/img/svg/map.svg"></i>
+                     <i class="tpchosebox__icon" ><img src="assets/img/svg/map.svg" alt=""></i>
                      <h4>Location:</h4>
                      <p>Ruko Grand Boulevard Blok U6/12 - Harapan Indah - Bekasi Barat, Medan Satria 17131</p>
                   </div>
 
                   <div class="email">
-                     <i class="bi bi-envelope"></i>
+                     <i class="tpchosebox__icon"><img src="assets/img/svg/mail.svg" alt=""></i>
                      <h4>Email:</h4>
                      <p>marketingsip@sriintanperkasa.com</p>
                   </div>
 
                   <div class="phone">
-                     <i class="bi bi-phone"></i>
+                     <i class="tpchosebox__icon"><img src="assets/img/svg/phone-call.svg" alt=""></i>
                      <h4>Call:</h4>
                      <p>(021) 887 3435 / (021) 887 3691</p>
                   </div>
