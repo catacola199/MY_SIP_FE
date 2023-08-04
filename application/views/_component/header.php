@@ -16,9 +16,9 @@
                         <li><a href="product">Product</a></li>
                         <li class="has-dropdown has-mega-menu"><a href="#">Services</a>
                            <ul class="submenu text-start">
-                              <li><a href="teknik">Teknisi</a></li>
-                              <li><a href="kalibrasi">Kalibrasi</a></li>
-                              <li><a href="ukes">Uji Kesesuaian</a></li>
+                              <li><a href="teknik.php">Teknisi</a></li>
+                              <li><a href="kalibrasi.php">Kalibrasi</a></li>
+                              <li><a href="ukes.php">Uji Kesesuaian</a></li>
                            </ul>
                         </li>
                         <!-- <li class="has-dropdown has-mega-menu"><a href="#">Pages</a>

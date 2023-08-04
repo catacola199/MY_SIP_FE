@@ -219,7 +219,7 @@
                      <h3 class="tp-sv-title2 mb-35"><a href="service-details.php">Uji Kesesuaian</a></h3>
                      <p class="mb-30 ratakanan">Uji Kesesuaian adalah kegiatan pengujian yang dilakukan untuk memastikan pesawat sinar-X dalam kondisi andal.</p>
                      <div class="tp-sv-link mt-35">
-                        <a href="service-3.php"><i class="far fa-arrow-right"></i> Lebih Lengkap</a>
+                        <a href="ukes.php"><i class="far fa-arrow-right"></i> Lebih Lengkap</a>
                      </div>
                   </div>
                </div>
@@ -236,7 +236,7 @@
                      <p class="mb-30 ratakanan">Kalibrasi adalah kegiatan penerapan untuk menentukan kebenaran nilai penunjukan alat ukur serta sebagai
                         bahan ukur serta menjamin ketersediaan alat kesehatan yang sesuai dengan standardisasi dan layak pakai di Fasilitas Kesehatan.</p>
                      <div class="tp-sv-link mt-35">
-                        <a href="service-details.php"><i class="far fa-arrow-right"></i> Lebih Lengkap</a>
+                        <a href="kalibrasi"><i class="far fa-arrow-right"></i> Lebih Lengkap</a>
                      </div>
                   </div>
                </div>
@@ -254,7 +254,7 @@
                      <p class="mb-30 ratakanan">Layanan teknisi menyediakan instalasi dan servis produk X-Ray, termasuk instalasi peralatan dan servis rutin.
                         Dengan layanan ini, pelanggan dapat memastikan produk X-Ray mereka berfungsi secara optimal dan mendapatkan perawatan rutin.</p>
                      <div class="tp-sv-link mt-35">
-                        <a href="service-4.php"><i class="far fa-arrow-right"></i> Lebih Lengkap </a>
+                        <a href="teknisi"><i class="far fa-arrow-right"></i> Lebih Lengkap </a>
                      </div>
                   </div>
                </div>
